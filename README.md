@@ -1,23 +1,25 @@
-# TÍTULO DO PROJETO
+# Registro de Reclamações
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Desenvolvimento de Aplicação Web Front-End`
 
-`SEMESTRE`
+`2023/1`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Este projeto tem como objetivo centralizar reclamações e exigências dos cidadãos, e assim buscar uma melhoria na gestão dos recursos públicos, focando onde é essencial para o povo.
+
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Danilo Marques da Fonseca
+* Felipe Alexandre da Silva
+* João Victor Bragança
+* Lucas Lousada Batalha dos Santos
+* Matheus Vitor Lourenço
 
 ## Orientador
 
-* Nome completo do professor 1
+* Joyce Christina De Paiva Carvalho
 
 ## Instruções de utilização
 
