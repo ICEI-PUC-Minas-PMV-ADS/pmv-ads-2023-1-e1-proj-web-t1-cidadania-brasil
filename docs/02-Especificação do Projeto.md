@@ -1,26 +1,37 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A definição do problema e os aspectos mais importantes a serem abordados neste projeto foram estabelecidos com a colaboração dos usuários por meio de um trabalho realizado pela equipe. Esse processo incluiu a observação de locais afetados por problemas relacionados à má gestão pública e entrevistas realizadas com os residentes para coletar informações relevantes. Os detalhes levantados nesse processo foram organizados na forma de personas e histórias de usuários.
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+As personas a seguir apresentadas foram levantadas durante o processo de entrevista e coleta de informações. 
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+1. Rodrigo Oliveira Garcia
+    * Idade: 45.
+    * Ocupação: Engenheiro Civil Formado pela UFMG em 2005, atualmente roda de Uber para garantir seu sustento e de sua família.
+    * Localização: Horto, Belo Horizonte – MG.
+    * Aplicativos: Facebook, Uber e Reddit.
+    * Motivações: Melhor estrutura do bairro e maior qualidade de vida.
+    * Frustrações: Falta de placas de sinalização e ruas com buracos e sem asfalto.
+    * Hobbies: Jogador de Poker e amante de livros de romance.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+2. Maria das Graças 
+    * Idade: 55.
+    * Ocupação: Vendedora de tortas e doces para festas.
+    * Localização: Jardim Vitória, Belo Horizonte - MG.
+    * Aplicativos: Instagram, Facebook e IFood.
+    * Motivações: Infraestrutura de maior qualidade no bairro.
+    * Frustrações: Falta de coleta de lixo regular e baixa segurança.
+    * Hobbies: Cozinhar e costurar.
+
+3. Márcio Valadares Silveira
+    * Idade: 38
+    * Ocupação: Formado em Direito pela USP, atua como gestor público a mais de 15 anos na Secretaria Municipal de Gestão Compartilhada, atuando em várias regiões da grande BH.
+    * Localização: Savassi, Belo Horizonte.
+    * Aplicativos: Facebook, Instagram, LinkedIn e Telegram.
+    * Motivações: Atender da melhor forma as reclamações da população.
+    * Frustrações: Baixo salário.
+    * Hobbies: Jogos Eletrônicos, filmes e séries.
 
 ## Histórias de Usuários
 
