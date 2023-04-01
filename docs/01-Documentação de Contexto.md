@@ -14,21 +14,17 @@ Conforme exposto, o problema que se busca resolver com este projeto é a falta d
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral deste trabalho é estabelecer um canal de comunicação eficiente para que os cidadãos possam registrar e discutir suas preocupações relacionadas à má gestão pública.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Além disso, os objetivos específicos incluem:
+* Fornecer recursos interativos que permitam aos cidadãos se engajarem nas reclamações já criadas e trabalharem juntos para alcançar um objetivo comum.
+* Dar mais visibilidade para as reclamações com mais interações.
+* Possibilitar que os responsáveis pelos problemas identificados respondam diretamente às reclamações.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Atualmente, percebe-se que grande parte dos debates sobre gestão pública são realizados nas redes sociais, uma vez que são amplamente populares e possuem grande alcance de público. No entanto, embora as redes sociais possam aumentar a conscientização sobre a questão, elas não oferecem uma maneira sistemática e organizada de coletar e registrar informações confiáveis sobre as reclamações.
+Para que o combate à má gestão pública seja efetivo, é necessário contar com canais de comunicação mais estruturados e eficazes. Nesse sentido, uma plataforma específica para denúncias de má gestão pode oferecer um canal seguro e organizado para o registro das reclamações e informações, possibilitando uma análise mais completa e uma resposta mais rápida aos problemas apontados.
 
 ## Público-Alvo
 
