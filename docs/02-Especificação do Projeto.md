@@ -53,14 +53,28 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+O plano do projeto é estabelecido por meio dos requisitos funcionais, que especificam as diferentes formas de interação dos usuários, além dos requisitos não funcionais, que descrevem os aspectos gerais que o sistema deverá apresentar. A seguir, são apresentados os requisitos que compõem essas categorias.
 
 ### Requisitos Funcionais
 
+Segue abaixo a tabela que lista os requisitos do projeto, identificando a ordem de prioridade em que devem ser entregues.
+
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| O site deve oferecer ao usuário a funcionalidade de se cadastrar | ALTA |
+|RF-002| O site deve oferecer ao usuário a funcionalidade de realizar login | ALTA |
+|RF-003| O site deve apresentar em sua página inicial as funcionalidades de “reclamar” e “histórico do setor reclamado” | ALTA |
+|RF-004| O site deve oferecer ao usuário a opção de “curtir” ou “não curtir” uma reclamação | MÉDIA |
+|RF-005| O site deve oferecer ao usuário a opção de criar comentários em reclamações | ALTA |
+|RF-006| O site deve apresentar, no histórico da reclamação, a quantidade de curtidas, imagens e comentários dos demais usuários | MÉDIA |
+|RF-007| O site deve oferecer um menu adicional que permita ao usuário verificar a reputação de determinado setor com base na resolução de reclamações | MÉDIA |
+|RF-008| O site deve permitir que o setor reclamado possa postar uma réplica em relação a reclamação | ALTA |
+|RF-009| O site deve permitir que o responsável pela reclamação possa postar a tréplica confirmando a solução, ou não, do problema | ALTA |
+|RF-010| O site deve permitir o compartilhamento de reclamações postadas em plataformas de redes sociais | BAIXA |
+|RF-011| O site deve permitir seguir a reclamação de interesse a fim de acompanhar as atualizações | BAIXA |
+|RF-012| O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar um texto específico que será informado na caixa de pesquisa | BAIXA |
+|RF-013| O site deve oferecer um ranking dos setores com melhor índice de solução | BAIXA |
+|RF-014| O site deve permitir que o usuário dê uma nota para sua experiência com o site | BAIXA |
 
 
 ### Requisitos não Funcionais
