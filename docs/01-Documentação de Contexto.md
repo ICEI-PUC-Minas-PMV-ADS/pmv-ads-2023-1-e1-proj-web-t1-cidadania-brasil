@@ -29,3 +29,4 @@ Para que o combate à má gestão pública seja efetivo, é necessário contar c
 ## Público-Alvo
 
 O público-alvo será composto por cidadãos que desejam fazer denúncias sobre ações ou omissões dos gestores públicos que violem os princípios da administração pública, como a transparência, a eficiência, a legalidade, e a impessoalidade. Esse público pode incluir cidadãos que foram prejudicados diretamente por uma má gestão pública, como, por exemplo, aqueles que habitam em locais onde serviços públicos essenciais não tenham sido aplicados, que tiveram seus direitos negados ou que sofreram prejuízos financeiros ou sociais.
+E principalmente pelos gestores públicos responsáveis por receber essas denúncias feitas pela população, garantindo que cada uma seja tratada adequadamente e encaminhada para a área responsável pela solução do problema.
