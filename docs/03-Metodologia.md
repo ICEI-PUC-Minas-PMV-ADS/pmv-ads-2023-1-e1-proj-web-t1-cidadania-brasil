@@ -9,7 +9,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 |         AMBIENTE          |        PLATAFORMA         |                  LINK DE ACESSO                               |
 |----------------------------|---------------------------|---------------------------------------------------------------|
-|Repositório de código fonte |         GitHub            | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-registro-de-reclamacoes/blob/main/src/README.md
+|Repositório de código fonte |         GitHub            | 
 |Documentos do Projeto       |         Google Docs       |
 |Projeto de Interface e Wireframes    |                     
 |Gerenciamento do Projeto     |            |
