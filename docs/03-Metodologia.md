@@ -9,10 +9,10 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 |         AMBIENTE          |        PLATAFORMA         |                  LINK DE ACESSO                               |
 |----------------------------|---------------------------|---------------------------------------------------------------|
-|Repositório de código fonte |         GitHub            | 
-|Documentos do Projeto       |         Google Docs       |
-|Projeto de Interface e Wireframes    |                     
-|Gerenciamento do Projeto     |            |
+|Repositório de código fonte |         GitHub            | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-registro-de-reclamacoes
+|Documentos do Projeto       |         GitHub            | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-registro-de-reclamacoes/tree/main/docs
+|Projeto de Interface e Wireframes|   Figma              | https://www.figma.com/file/vve9yuNV9e0VifPQLMX20w/Registro-de-Reclama%C3%A7%C3%B5es?node-id=0%3A1&t=kguw5qCGXBw67vTB-1    
+|Gerenciamento do Projeto     | GitHub Projects          | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/311/views/1
 
 
 
