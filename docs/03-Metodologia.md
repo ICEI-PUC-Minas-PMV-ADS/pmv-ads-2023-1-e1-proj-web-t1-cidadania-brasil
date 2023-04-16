@@ -3,7 +3,7 @@
 
 A metodologia contempla as definições das ferramentas utilizadas pela equipe tanto para a criação e manutenção dos códigos e demais artefatos quanto para a organização do time na execução das tarefas do projeto.
 
-## Relação de Ambiente de Trabalho
+## Relação de Ambientes de Trabalho
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela a seguir.
 
