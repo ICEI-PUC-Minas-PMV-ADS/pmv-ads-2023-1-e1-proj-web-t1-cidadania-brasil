@@ -3,11 +3,6 @@
 
 A metodologia contempla as definições das ferramentas utilizadas pela equipe tanto para a criação e manutenção dos códigos e demais artefatos quanto para a organização do time na execução das tarefas do projeto.
 
-
-
-
-
-
 ## Controle de Versão
 
 A ferramenta de controle de versão adotada no projeto foi o
