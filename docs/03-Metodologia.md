@@ -7,8 +7,12 @@ A metodologia contempla as definições das ferramentas utilizadas pela equipe t
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela a seguir.
 
-
-
+|         AMBIENTE          |        PLATAFORMA         |                  LINK DE ACESSO                               |
+|----------------------------|---------------------------|---------------------------------------------------------------|
+|Repositório de código fonte |         GitHub            | 
+|Documentos do Projeto       |         Google Docs       |
+|Projeto de Interface e Wireframes    |                     
+|Gerenciamento do Projeto     |            |
 
 
 
