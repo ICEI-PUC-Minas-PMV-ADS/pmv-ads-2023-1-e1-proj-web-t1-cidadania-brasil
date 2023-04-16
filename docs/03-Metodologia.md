@@ -5,6 +5,13 @@ A metodologia contempla as definições das ferramentas utilizadas pela equipe t
 
 ## Relação de Ambiente de Trabalho
 
+Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela a seguir.
+
+
+
+
+
+
 
 ## Controle de Versão
 
