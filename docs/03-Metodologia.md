@@ -16,42 +16,57 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 
 
-
-## Controle de Versão
-
-A ferramenta de controle de versão adotada no projeto foi o
-[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório.
-
-O projeto segue a seguinte convenção para o nome de branches:
-
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
-
-Quanto à gerência de issues, o projeto adota a seguinte convenção para
-etiquetas:
-
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
-
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
-
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
-
 ## Gerenciamento de Projeto
+
+A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do
+processo de desenvolvimento.
+
+A equipe está organizada da seguinte maneira:
+
+  ● Scrum Master: Lucas Lousada
+
+  ● Product Owner: Felipe Alexandre
+
+  ● Equipe de Desenvolvimento: João Bragança; Danilo Marques
+
+  ● Equipe de Design: Matheus
+
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub
+estruturado com as seguintes listas:
+
+  ● Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser
+    incorporadas a esta lista.
+
+  ● To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
+
+  ● Doing: Quando uma tarefa tiver sido iniciada, ela é movida para cá.
+
+  ● Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou     revisões necessárias, ele está agendado e pronto para a ação.
+
+O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos está
+disponível através da URL xxxx e é apresentado, no estado atual, na Figura X.
+
+
+QUADRO AQUI
+
+
+
+
+
+Na primeira etapa do projeto foi realizado um levantamento dos principais problemas relacionados à gestão pública a fim de realizar uma melhor alocação dos recursos com vistas à uma melhor satisfação da população. 
+
+Para isso foram realizadas entrevistas para coletar relatos e informações relevantes que possam contribuir para a melhoria do processo como um todo com base na experiência do usuário.
+
+Os detalhes levantados nesse processo foram organizados na forma de personas e histórias de usuários.
+Para gerenciar todo o processo decidiu-se criar um site com ferramentas que possibilitem a interação entre usuários e o setor público responsável com vistas à solução mais adequada ao problema. 
+
+Para isso foram estabelecidos requisitos funcionais e não funcionais com suas respectivas prioridades, além das restrições que limitam a execução deste projeto e que se configuram como obrigações claras para o seu desenvolvimento.
+
+
+
 
 > **Links Úteis**:
 > - [11 Passos Essenciais para Implantar Scrum no seu 
