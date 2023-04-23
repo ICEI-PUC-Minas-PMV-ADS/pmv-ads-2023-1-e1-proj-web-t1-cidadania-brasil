@@ -23,38 +23,31 @@ processo de desenvolvimento.
 
 A equipe está organizada da seguinte maneira:
 
-  ● Scrum Master: Lucas Lousada
-
-  ● Product Owner: Felipe Alexandre
-
-  ● Equipe de Desenvolvimento: João Bragança; Danilo Marques
-
-  ● Equipe de Design: Matheus
+* Scrum Master: Lucas Lousada Batalha dos Santos
+* Product Owner: Felipe Alexandre da Silva
+* Equipe de Desenvolvimento:
+    * João Victor Bragança
+    * Danilo Marques da Fonseca
+* Equipe de Design: Matheus Vitor Lourenço
 
 
 ### Divisão de Papéis
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub
-estruturado com as seguintes listas:
+estruturado com as seguintes colunas:
 
-  ● Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser
-    incorporadas a esta lista.
-
-  ● To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
-
-  ● Doing: Quando uma tarefa tiver sido iniciada, ela é movida para cá.
-
-  ● Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou     revisões necessárias, ele está agendado e pronto para a ação.
+  *  Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
+  *  To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
+  * In progress: Quando uma tarefa tiver sido iniciada, ela é movida para cá.
+  * Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou     revisões necessárias, ele está agendado e pronto para a ação.
 
 O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos está
-disponível através da URL xxxx e é apresentado, no estado atual, na Figura X.
+disponível através da URL https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/311/views/1 e é apresentado, no estado atual, na Figura 1.
 
 
-QUADRO AQUI
-
-
-
-
+| ![Figura 1 - Quadro Scrum do Projeto](./img/github-board-screenshot.png "Figura 1")
+|:--:| 
+| *Figura 1 - Quadro Scrum do Projeto* |
 
 Na primeira etapa do projeto foi realizado um levantamento dos principais problemas relacionados à gestão pública a fim de realizar uma melhor alocação dos recursos com vistas à uma melhor satisfação da população. 
 
