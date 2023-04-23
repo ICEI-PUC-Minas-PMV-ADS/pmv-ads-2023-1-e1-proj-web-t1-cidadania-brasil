@@ -37,6 +37,21 @@ As personas a seguir apresentadas foram levantadas durante o processo de entrevi
 
 A partir da análise das personas alvo para o projeto e de análise de requisitos funcionais e não funcionais, as histórias de usuários podem ser visualizadas a partir do Board disponibilizado pelo próprio Github. Para acessá-las, [siga este link](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/311/views/1).
 
+
+| Eu como [PERSONA]...     | ... quero/desejo [O QUE]...                                        | ... para [POR QUE ] ..                                                                              |
+| ------------------------ | ------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| Rodrigo/Maria das Graças | me cadastrar no sistema                                            | ter um perfil na aplicação                                                                          |
+| Rodrigo/Maria das Graças | realizar o login no sistema com minha conta de usuário             | visualizar as informações de meu perfil                                                             |
+| Rodrigo/Maria das Graças | realizar reclamações dentro do sistema                             | melhorar a infraestrutura de minha cidade/bairro                                                    |
+| Rodrigo/Maria das Graças | filtrar as reclamações do sistema de acordo com meus critérios     | visualizar as reclamações que mais me interessam                                                    |
+| Rodrigo/Maria das Graças | adicionar comentários a uma publicação                             | expressar minha opinião e participar do debate                                                      |
+| Rodrigo/Maria das Graças | curtir positivamente ou negativamente um comentário de reclamação  | dar visibilidade à relevância dessa reclamação                                                      |
+| Rodrigo/Maria das Graças | visualizar o histórico de comentários e curtidas de uma reclamação | ter maior visibilidade do que foi discutido e apreciado durante o debate da reclamação              |
+| Rodrigo/Maria das Graças | compartilhar uma reclamação em redes sociais                       | compartilhar com minha rede de amigos e ampliar a discussão sobre o tema                            |
+| Rodrigo/Maria das Graças | visualizar informações quanto os setores reclamados                | ter noção de saber como anda as reclamações e resoluçào de acordo com cada setor                    |
+| Márcio Valadares         | devo ser capaz de responder à uma reclamação                       | dar uma resolução à reclamação ao usuário que a cadastrou                                           |
+| Rodrigo/Maria das Graças | avaliar minha experiência com o setor reclamado                    | dar visibilidade aos outros usuários do sistema o quanto satisfeito estou com a solução apresentada |
+
 ## Requisitos
 
 O plano do projeto é estabelecido por meio dos requisitos funcionais, que especificam as diferentes formas de interação dos usuários, além dos requisitos não funcionais, que descrevem os aspectos gerais que o sistema deverá apresentar. A seguir, são apresentados os requisitos que compõem essas categorias.
