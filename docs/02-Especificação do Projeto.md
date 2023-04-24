@@ -45,7 +45,7 @@ A partir da análise das personas alvo para o projeto e de análise de requisito
 | Rodrigo/Maria das Graças | realizar reclamações dentro do sistema                             | melhorar a infraestrutura de minha cidade/bairro                                                    |
 | Rodrigo/Maria das Graças | filtrar as reclamações do sistema de acordo com meus critérios     | visualizar as reclamações que mais me interessam                                                    |
 | Rodrigo/Maria das Graças | adicionar comentários a uma publicação                             | expressar minha opinião e participar do debate                                                      |
-| Rodrigo/Maria das Graças | curtir positivamente ou negativamente um comentário de reclamação  | dar visibilidade à relevância dessa reclamação                                                      |
+| Rodrigo/Maria das Graças | curtir uma reclamação  | dar visibilidade à relevância dessa reclamação                                                      |
 | Rodrigo/Maria das Graças | visualizar o histórico de comentários e curtidas de uma reclamação | ter maior visibilidade do que foi discutido e apreciado durante o debate da reclamação              |
 | Rodrigo/Maria das Graças | compartilhar uma reclamação em redes sociais                       | compartilhar com minha rede de amigos e ampliar a discussão sobre o tema                            |
 | Rodrigo/Maria das Graças | visualizar informações quanto os setores reclamados                | ter noção de saber como anda as reclamações e resoluçào de acordo com cada setor                    |
@@ -65,17 +65,16 @@ Segue abaixo a tabela que lista os requisitos do projeto, identificando a ordem 
 |RF-001| O site deve oferecer ao usuário a funcionalidade de se cadastrar | ALTA |
 |RF-002| O site deve oferecer ao usuário a funcionalidade de realizar login | ALTA |
 |RF-003| O site deve apresentar em sua página inicial as funcionalidades de “reclamar” e “histórico do setor reclamado” | ALTA |
-|RF-004| O site deve oferecer ao usuário a opção de “curtir” ou “não curtir” uma reclamação | MÉDIA |
+|RF-004| O site deve oferecer ao usuário a opção de “curtir” uma reclamação | MÉDIA |
 |RF-005| O site deve oferecer ao usuário a opção de criar comentários em reclamações | ALTA |
 |RF-006| O site deve apresentar, no histórico da reclamação, a quantidade de curtidas, imagens e comentários dos demais usuários | MÉDIA |
-|RF-007| O site deve oferecer um menu adicional que permita ao usuário verificar a reputação de determinado setor com base na resolução de reclamações | MÉDIA |
+|RF-007| O site deve oferecer ao usuário uma página para verificar a reputação de determinado setor com base na resolução de reclamações | MÉDIA |
 |RF-008| O site deve permitir que o setor reclamado possa postar uma réplica em relação a reclamação | ALTA |
 |RF-009| O site deve permitir que o responsável pela reclamação possa postar a tréplica confirmando a solução, ou não, do problema | ALTA |
 |RF-010| O site deve permitir o compartilhamento de reclamações postadas em plataformas de redes sociais | BAIXA |
 |RF-011| O site deve permitir seguir a reclamação de interesse a fim de acompanhar as atualizações | BAIXA |
 |RF-012| O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar um texto específico que será informado na caixa de pesquisa | BAIXA |
-|RF-013| O site deve oferecer um ranking dos setores com melhor índice de solução | BAIXA |
-|RF-014| O site deve permitir que o usuário dê uma nota para sua experiência com o site | BAIXA |
+|RF-013| O site deve permitir que o usuário dê uma nota para sua experiência com o site | BAIXA |
 
 ### Requisitos não Funcionais
 
