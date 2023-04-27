@@ -8,7 +8,6 @@
 
 Este projeto tem como objetivo centralizar reclamações e exigências dos cidadãos, e assim buscar uma melhoria na gestão dos recursos públicos, focando onde é essencial para o povo.
 
-
 ## Integrantes
 
 * Danilo Marques da Fonseca
@@ -23,7 +22,21 @@ Este projeto tem como objetivo centralizar reclamações e exigências dos cidad
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Você precisa instalar o [Git](https://git-scm.com/downloads) e o [Node.js](https://nodejs.org/en/download/) para executar este projeto.
+Você pode usar [Yarn](https://yarnpkg.com/) ou [Npm](https://nodejs.org/en/download/).
+
+```bash
+# Clone o projeto
+$ git clone https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-registro-de-reclamacoes.git
+# Acesse a pasta
+$ cd pmv-ads-2023-1-e1-proj-web-t1-registro-de-reclamacoes
+# Instale as dependências
+$ npm i
+# Inicie o servidor com
+$ npm run dev
+```
+
+Acesse em: http://localhost:5173  
 
 # Documentação
 
