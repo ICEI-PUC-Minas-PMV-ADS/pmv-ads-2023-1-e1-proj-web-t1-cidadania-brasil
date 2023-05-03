@@ -4,3 +4,25 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
+
+:root {
+  --principal: #5865f2;
+  --branco: #ffffff;
+  --preto: #030303;
+  --fundo: #f3f2ef;
+  --cinza-azulado: #56687a;
+  --vermelho: #eb3b5a;
+  --verde: #27ae60;
+  --amarelo: #f7b731;
+
+  --cinza-1: #eef3f8;
+  --cinza-2: #f2f2f2;
+  --cinza-3: #ededed;
+  --cinza-4: #dfdfdf;
+  --cinza-5: #cfcecb;
+  --cinza-6: #b3b3b3;
+  --cinza-7: #8e8e8e;
+  --cinza-8: #797979;
+  --cinza-9: #5f6163;
+  --cinza-10: #404040;
+}
