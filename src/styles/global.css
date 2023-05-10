@@ -26,3 +26,11 @@
   --cinza-9: #5f6163;
   --cinza-10: #404040;
 }
+
+body {
+  background-color: var(--fundo);
+}
+
+a {
+  cursor: pointer;
+}
