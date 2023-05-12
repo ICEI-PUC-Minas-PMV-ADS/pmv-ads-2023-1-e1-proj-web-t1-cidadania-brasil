@@ -20,8 +20,8 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <!-- Menu de navegação -->
-    <div class="menu">
+    <!-- Cabeçalho e Menu de navegação -->
+    <header class="menu">
       <div class="container-menu">
         <div class="logo">
           <img src="../../assets/logo.svg" alt="Megafone" />
@@ -46,6 +46,32 @@
           <i class="ph ph-sign-out"></i>
         </button>
       </div>
-    </div>
+    </header>
+
+    <main>
+      <!-- Criar reclamação -->
+      <section class="link-criar-reclamacao">
+        <div class="avatar">DM</div>
+        <a href="../criar-reclamacao/index.html">Começar reclamação</a>
+      </section>
+      <!-- Filtros -->
+      <section class="filtros">
+        <select name="setor-reclamacao">
+          <option value="todos">Todos</option>
+          <option value="seguranca">Segurança</option>
+          <option value="saude">Saúde</option>
+          <option value="educacao">Educação</option>
+          <option value="transporte">Transporte</option>
+          <option value="meio-ambiente">Meio Ambiente</option>
+          <option value="urbanismo">Urbanismo</option>
+        </select>
+        <select name="classificar-por">
+          <option value="populares">Populares</option>
+          <option value="recentes">Recentes</option>
+        </select>
+        <button type="button">Minhas reclamações</button>
+        <button type="button">Reclamações Salvas</button>
+      </section>
+    </main>
   </body>
 </html>
