@@ -151,6 +151,7 @@
 main {
   max-width: 700px;
   margin: 0 auto;
+  margin-bottom: 500px; /* remover */
 }
 
 /********************* Criar reclamação *********************/
@@ -306,6 +307,64 @@ main {
   padding: 8px 16px 20px;
 }
 
+.reclamacao > .conteudo figure {
+  line-height: 0;
+}
+
 .reclamacao > .conteudo figure img {
   width: 100%;
+}
+
+/* Detalhes sociais */
+
+.detalhes-sociais {
+  display: flex;
+  align-items: center;
+  gap: 0 28px;
+  margin: 8px 16px 0;
+  padding-bottom: 8px;
+  font-size: 12px;
+  color: var(--cinza-10);
+  border-bottom: 1px solid var(--cinza-4);
+}
+
+.detalhes-sociais span {
+  display: flex;
+  align-items: center;
+  gap: 0 4px;
+}
+
+.detalhes-sociais span i {
+  font-size: 14px;
+  color: var(--principal);
+}
+
+/* Ações */
+
+.acoes {
+  display: flex;
+  gap: 0 4px;
+  padding: 4px 12px 8px;
+  color: var(--color-10);
+  font-size: 14px;
+}
+
+.acoes button {
+  display: flex;
+  align-items: center;
+  gap: 0 4px;
+  padding: 10px 18px;
+  background-color: transparent;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.acoes button i {
+  font-size: 24px;
+}
+
+.acoes button:hover {
+  background-color: var(--cinza-2);
 }
