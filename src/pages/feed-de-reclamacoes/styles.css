@@ -368,3 +368,120 @@ main {
 .acoes button:hover {
   background-color: var(--cinza-2);
 }
+
+/* Adicionar comentário */
+
+.adicionar-comentario {
+  display: flex;
+  padding: 0 16px 20px;
+}
+
+.adicionar-comentario .avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+  color: var(--cinza-8);
+  font-size: 16px;
+  font-weight: 500;
+  background-color: var(--cinza-2);
+  border-radius: 50%;
+}
+
+.adicionar-comentario input {
+  flex: 1;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid var(--cinza-6);
+  border-radius: 35px;
+}
+
+/* Lista de comentários */
+
+.comentarios {
+  list-style: none;
+  padding-bottom: 20px;
+}
+
+.comentarios li {
+  display: flex;
+  padding: 0 16px;
+}
+
+.comentarios li + li {
+  margin-top: 8px;
+}
+
+.comentarios li .avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+  color: var(--cinza-8);
+  font-size: 16px;
+  font-weight: 500;
+  background-color: var(--cinza-2);
+  border-radius: 50%;
+}
+
+.comentarios li .conteudo-comentario {
+  flex: 1;
+  background-color: var(--fundo);
+  border-radius: 0 8px 8px 8px;
+  padding: 8px 16px 16px;
+  font-size: 14px;
+}
+
+.comentarios li .conteudo-comentario header {
+  display: grid;
+  grid-template-areas: 'nome tipo-usuario tipo-usuario' 'profissao separador bairro';
+  grid-template-columns: max-content min-content max-content;
+  gap: 2px 5px;
+  padding-bottom: 8px;
+}
+
+.comentarios li .conteudo-comentario h4 {
+  grid-area: nome;
+  color: var(--preto);
+}
+
+.comentarios li .conteudo-comentario .tipo-usuario {
+  grid-area: tipo-usuario;
+  font-weight: 500;
+  padding: 1px 6px;
+  border-radius: 4px;
+  color: var(--branco);
+  width: min-content;
+}
+
+.comentarios li .conteudo-comentario .autor {
+  background-color: var(--principal);
+}
+
+.comentarios li .conteudo-comentario .gestor {
+  background-color: var(--cinza-azulado);
+}
+
+.comentarios li .conteudo-comentario .profissao {
+  grid-area: profissao;
+  color: var(--cinza-9);
+}
+
+.comentarios li .conteudo-comentario .separador {
+  grid-area: separador;
+  color: var(--cinza-10);
+}
+
+.comentarios li .conteudo-comentario .bairro {
+  grid-area: bairro;
+  color: var(--cinza-9);
+}
+
+.comentarios li .conteudo-comentario p {
+  grid-area: texto;
+  color: var(--preto);
+}
