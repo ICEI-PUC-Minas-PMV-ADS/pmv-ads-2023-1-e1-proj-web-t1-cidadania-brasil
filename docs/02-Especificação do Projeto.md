@@ -35,8 +35,7 @@ As personas a seguir apresentadas foram levantadas durante o processo de entrevi
 
 ## Histórias de Usuários
 
-A partir da análise das personas alvo para o projeto e de análise de requisitos funcionais e não funcionais, as histórias de usuários podem ser visualizadas a partir do Board disponibilizado pelo próprio Github. Para acessá-las, [siga este link](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/311/views/1).
-
+Foram registradas as seguintes histórias de usuário após compreender o cotidiano das personas identificadas para o projeto.
 
 | Eu como [PERSONA]...     | ... quero/desejo [O QUE]...                                        | ... para [POR QUE ] ..                                                                              |
 | ------------------------ | ------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
