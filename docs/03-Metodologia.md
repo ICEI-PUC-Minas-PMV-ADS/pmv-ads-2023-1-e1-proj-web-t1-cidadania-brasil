@@ -38,12 +38,11 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
   * Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou     revisões necessárias, ele está agendado e pronto para a ação.
 
 O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos está
-disponível através da URL https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/311/views/1 e é apresentado, no estado atual, na Figura 1.
-
+disponível através da URL https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/311/views/1.
 
 | ![Figura 1 - Quadro Scrum do Projeto](./img/sprint-0.png "Figura 1")
 |:--:| 
-| *Figura 1 - Quadro Scrum do Projeto* |
+| *Figura 1 - Quadro Scrum referente a primeira etapa do projeto* |
 
 Na primeira etapa do projeto foi realizado um levantamento dos principais problemas relacionados à gestão pública a fim de realizar uma melhor alocação dos recursos com vistas à uma melhor satisfação da população. 
 
@@ -53,3 +52,21 @@ Os detalhes levantados nesse processo foram organizados na forma de personas e h
 Para gerenciar todo o processo decidiu-se criar um site com ferramentas que possibilitem a interação entre usuários e o setor público responsável com vistas à solução mais adequada ao problema. 
 
 Para isso foram estabelecidos requisitos funcionais e não funcionais com suas respectivas prioridades, além das restrições que limitam a execução deste projeto e que se configuram como obrigações claras para o seu desenvolvimento.
+
+| ![Figura 2 - Quadro Scrum do Projeto](./img/sprint-1.png "Figura 2")
+|:--:| 
+| *Figura 2 - Quadro Scrum referente a segunda etapa do projeto* |
+
+Na segunda etapa, estabelecemos a metodologia a ser adotada no projeto, incluindo a localização de nosso repositório, documentos do projeto, projeto de interface e wireframes, bem como a ferramenta a ser usada para gerenciar o projeto.
+
+Ademais, determinamos os papéis de cada membro da equipe dentro da metodologia Scrum, além de definir os padrões a serem aplicados no gerenciamento do projeto no Github Projet.
+
+Elaboramos o projeto de interface, definindo o fluxo do usuário no uso da aplicação, bem como criando todos os protótipos das telas do sistema.
+
+| ![Figura 3 - Quadro Scrum do Projeto](./img/sprint-2.png "Figura 3")
+|:--:| 
+| *Figura 3 - Quadro Scrum referente a terceira etapa do projeto* |
+
+Na terceira etapa, criamos o template do site, que estabelece o layout padrão a ser utilizado em todas as páginas, juntamente com a definição da identidade visual e da iconografia.
+
+Além disso, demos início ao desenvolvimento das páginas "feed de reclamações", "login" e "recuperar senha", criando toda a estrutura HTML e CSS.
