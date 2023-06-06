@@ -35,3 +35,151 @@ a {
   cursor: pointer;
   text-decoration: none;
 }
+
+/********************* Menu de navegação *********************/
+
+.menu {
+  padding: 9px 0;
+  background-color: var(--branco);
+  border-bottom: 1px solid var(--cinza-4);
+}
+
+.menu .container-menu {
+  display: flex;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Logo */
+
+.menu .logo {
+  margin-right: 12px;
+  line-height: 0;
+  border-radius: 5px;
+  background-color: var(--cinza-2);
+  border: 1px solid var(--cinza-4);
+}
+
+.menu .logo img {
+  width: 18px;
+  margin: 7px;
+}
+
+/* Barra de busca */
+
+.menu .barra-de-busca {
+  display: flex;
+  align-items: center;
+  gap: 0 8px;
+  max-width: 280px;
+  width: 100%;
+  padding: 0 13px;
+  border-radius: 4px;
+  background-color: var(--cinza-1);
+}
+
+.menu .barra-de-busca input {
+  width: 100%;
+  font-size: 14px;
+  color: var(--preto);
+  border: 0;
+  outline: none;
+  background-color: transparent;
+}
+
+.menu .barra-de-busca i {
+  font-size: 16px;
+  color: var(--cinza-9);
+}
+
+/* Links de nevegação */
+
+.menu nav {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0 16px;
+}
+
+.menu nav a {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 6px;
+}
+
+.menu nav a i {
+  font-size: 24px;
+  color: var(--cinza-9);
+}
+
+.menu nav a.link-ativo i,
+.menu nav a:hover i {
+  color: var(--preto);
+}
+
+.menu nav a::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  top: initial;
+  bottom: -6px;
+  height: 1px;
+  background-color: transparent;
+}
+
+.menu nav a.link-ativo::after {
+  background-color: var(--preto);
+}
+
+.menu nav a:hover::after {
+  transition: background-color 0.5s;
+  background-color: var(--preto);
+}
+
+.menu nav a:hover i {
+  transition: color 0.5s;
+}
+
+/* Avatar */
+
+.menu .avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  margin-right: 12px;
+  color: var(--cinza-8);
+  font-size: 14px;
+  font-weight: 500;
+  background-color: var(--cinza-2);
+  border-radius: 50%;
+}
+
+/* Sair da conta */
+
+.menu .sair {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  margin: auto 0;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  border-radius: 4px;
+}
+
+.menu .sair:hover {
+  transition: background-color 0.2s;
+  background-color: var(--cinza-2);
+}
+
+.menu .sair i {
+  font-size: 18px;
+  color: var(--cinza-8);
+}

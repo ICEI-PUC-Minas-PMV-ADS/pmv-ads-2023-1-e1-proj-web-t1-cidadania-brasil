@@ -17,8 +17,88 @@
     </script>
 
     <link rel="stylesheet" href="../../styles/global.css" />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <script defer src="./script.js"></script>
   </head>
   <body>
-    Crie sua reclamação
+    <!-- Cabeçalho e Menu de navegação -->
+    <header class="menu">
+      <div class="container-menu">
+        <div class="logo">
+          <img src="../../assets/logo.svg" alt="Megafone" />
+        </div>
+        <div class="barra-de-busca">
+          <i class="ph ph-magnifying-glass"></i>
+          <input type="search" name="" id="" placeholder="Pesquisar" />
+        </div>
+        <nav>
+          <a href="../feed-de-reclamacoes/index.html">
+            <i class="ph ph-house"></i>
+          </a>
+          <a href="../criar-reclamacao/index.html" class="link-ativo">
+            <i class="ph ph-chat-centered-dots"></i>
+          </a>
+          <a href="../desempenho-dos-setores/index.html">
+            <i class="ph ph-chart-pie-slice"></i>
+          </a>
+        </nav>
+        <div class="avatar">DM</div>
+        <button class="sair" type="button">
+          <i class="ph ph-sign-out"></i>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <h1>Criar reclamação</h1>
+      <header>
+        <div class="avatar">RO</div>
+        <h2>Rodrigo Oliveira</h2>
+        <div class="informacoes-usuario">
+          <span>Engenheiro Civil</span>
+        </div>
+      </header>
+      <form id="formulario-reclamacao">
+        <div class="informacoes-complementares">
+          <select id="categoria-reclamacao" required>
+            <option value="">Setor reclamado</option>
+            <option value="Segurança">Segurança</option>
+            <option value="Saúde">Saúde</option>
+            <option value="Educação">Educação</option>
+            <option value="Transporte">Transporte</option>
+            <option value="Meio Ambiente">Meio Ambiente</option>
+            <option value="Urbanismo">Urbanismo</option>
+          </select>
+          <input
+            id="cidade-reclamacao"
+            type="text"
+            value="Belo Horizonte"
+            readonly
+          />
+          <input
+            id="bairro-reclamacao"
+            type="text"
+            placeholder="Informe o bairro"
+            required
+          />
+        </div>
+        <textarea
+          id="descricao-reclamacao"
+          placeholder="Descreva a sua reclamação."
+          required
+        ></textarea>
+        <footer>
+          <div>
+            <label id="label-anexar-imagem" for="anexar-imagem">
+              <i class="ph ph-paperclip"></i>
+            </label>
+            <span id="remover-anexo" class="ocultar">Remover</span>
+          </div>
+          <input id="anexar-imagem" type="file" accept=".png,.jpg,.jpeg,.svg" />
+          <button type="submit">Publicar</button>
+        </footer>
+      </form>
+    </main>
   </body>
 </html>

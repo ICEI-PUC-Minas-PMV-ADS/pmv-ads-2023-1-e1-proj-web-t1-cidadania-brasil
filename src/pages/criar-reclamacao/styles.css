@@ -1,0 +1,181 @@
+main {
+  max-width: 700px;
+  margin: 24px auto 0;
+  border-radius: 8px;
+  background-color: var(--branco);
+  border: 1px solid var(--cinza-4);
+}
+
+main h1 {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--preto);
+  padding: 16px 24px;
+  border-bottom: 1px solid var(--cinza-2);
+}
+
+/* Cabeçalho  */
+/* FIXME: Reaprovetar o css abaixo, ele é usado no feed de reclamações e aqui.*/
+/* FIXME: Também reaproveitar o estilo do avatar  */
+/* FIXME: O estilo do select tbm, usado na feed de reclamacoes e aqui*/
+
+main > header {
+  display: grid;
+  grid-template-areas: 'avatar nome' 'avatar info';
+  grid-template-columns: max-content;
+  gap: 0 12px;
+  padding: 20px 24px 0;
+}
+
+main > header > .avatar {
+  grid-area: avatar;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  color: var(--cinza-8);
+  font-size: 20px;
+  font-weight: 500;
+  background-color: var(--cinza-2);
+  border-radius: 50%;
+}
+
+main > header h2 {
+  grid-area: nome;
+  align-self: flex-end;
+  font-size: 16px;
+  color: var(--preto);
+}
+
+main > header .informacoes-usuario {
+  grid-area: info;
+  display: flex;
+  font-size: 14px;
+  color: var(--cinza-10);
+}
+
+main > header .informacoes-usuario span + span::before {
+  padding: 0 5px;
+  content: '•';
+}
+
+/* Formulário */
+
+main .informacoes-complementares {
+  display: flex;
+  gap: 0 12px;
+  padding: 12px 24px;
+}
+
+main .informacoes-complementares select,
+main .informacoes-complementares input {
+  padding: 5px 0 5px 12px;
+  border: 1px solid var(--cinza-8);
+  background-color: transparent;
+  border-radius: 16px;
+  color: var(--cinza-8);
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  text-overflow: ellipsis;
+}
+
+main .informacoes-complementares input {
+  width: 140px;
+  padding: 5px 12px;
+  cursor: initial;
+  text-overflow: initial;
+}
+
+main .informacoes-complementares input:read-only {
+  color: var(--cinza-8);
+  background-color: var(--cinza-3);
+}
+
+main textarea {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  padding: 20px 24px;
+  font-size: 16px;
+  resize: none;
+  outline: none;
+  border: none;
+}
+
+/* Rodapé */
+
+main footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 24px;
+  border-top: 1px solid var(--cinza-2);
+}
+
+main footer > div {
+  display: flex;
+  align-items: center;
+}
+
+main footer label {
+  position: relative;
+  padding: 4px 3px;
+  line-height: 0;
+  font-size: 25px;
+  color: var(--cinza-8);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+main footer label.ativo::after {
+  content: '';
+  position: absolute;
+  top: -7%;
+  right: -7%;
+  background-color: red;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
+
+main footer label:hover {
+  background-color: var(--cinza-3);
+}
+
+main footer span {
+  padding: 3px 6px;
+  font-size: 12px;
+  color: var(--cinza-9);
+  cursor: pointer;
+}
+
+main footer span.ocultar {
+  display: none;
+}
+
+main footer span:hover {
+  text-decoration: underline;
+}
+
+main footer input[type='file'] {
+  display: none;
+}
+
+main footer button {
+  padding: 6px 16px;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--branco);
+  border-radius: 16px;
+  background-color: var(--principal);
+  border: none;
+  cursor: pointer;
+  transition: filter 0.2s;
+}
+
+main footer button:hover {
+  filter: brightness(88%);
+}

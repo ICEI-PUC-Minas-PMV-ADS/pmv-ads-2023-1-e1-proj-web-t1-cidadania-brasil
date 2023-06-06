@@ -1,157 +1,9 @@
-/********************* Menu de navegação *********************/
-
-.menu {
-  padding: 9px 0;
-  background-color: var(--branco);
-  border-bottom: 1px solid var(--cinza-4);
-}
-
-.menu .container-menu {
-  display: flex;
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-/* Logo */
-
-.menu .logo {
-  margin-right: 12px;
-  line-height: 0;
-  border-radius: 5px;
-  background-color: var(--cinza-2);
-  border: 1px solid var(--cinza-4);
-}
-
-.menu .logo img {
-  width: 18px;
-  margin: 7px;
-}
-
-/* Barra de busca */
-
-.menu .barra-de-busca {
-  display: flex;
-  align-items: center;
-  gap: 0 8px;
-  max-width: 280px;
-  width: 100%;
-  padding: 0 13px;
-  border-radius: 4px;
-  background-color: var(--cinza-1);
-}
-
-.menu .barra-de-busca input {
-  width: 100%;
-  font-size: 14px;
-  color: var(--preto);
-  border: 0;
-  outline: none;
-  background-color: transparent;
-}
-
-.menu .barra-de-busca i {
-  font-size: 16px;
-  color: var(--cinza-9);
-}
-
-/* Links de nevegação */
-
-.menu nav {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0 16px;
-}
-
-.menu nav a {
-  position: relative;
-  display: flex;
-  align-items: center;
-  height: 100%;
-  padding: 0 6px;
-}
-
-.menu nav a i {
-  font-size: 24px;
-  color: var(--cinza-9);
-}
-
-.menu nav a.link-ativo i,
-.menu nav a:hover i {
-  color: var(--preto);
-}
-
-.menu nav a::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  top: initial;
-  bottom: -6px;
-  height: 1px;
-  background-color: transparent;
-}
-
-.menu nav a.link-ativo::after {
-  background-color: var(--preto);
-}
-
-.menu nav a:hover::after {
-  transition: background-color 0.5s;
-  background-color: var(--preto);
-}
-
-.menu nav a:hover i {
-  transition: color 0.5s;
-}
-
-/* Avatar */
-
-.menu .avatar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 34px;
-  height: 34px;
-  margin-right: 12px;
-  color: var(--cinza-8);
-  font-size: 14px;
-  font-weight: 500;
-  background-color: var(--cinza-2);
-  border-radius: 50%;
-}
-
-/* Sair da conta */
-
-.menu .sair {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 24px;
-  height: 24px;
-  margin: auto 0;
-  cursor: pointer;
-  background-color: transparent;
-  border: 0;
-  border-radius: 4px;
-}
-
-.menu .sair:hover {
-  transition: background-color 0.2s;
-  background-color: var(--cinza-2);
-}
-
-.menu .sair i {
-  font-size: 18px;
-  color: var(--cinza-8);
-}
-
 /*************************** Main ***************************/
 
 main {
   max-width: 700px;
   margin: 0 auto;
-  margin-bottom: 500px; /* remover */
+  margin-bottom: 500px; /* FIXME: remover */
 }
 
 /********************* Criar reclamação *********************/
@@ -247,6 +99,10 @@ main {
   background-color: var(--branco);
   border-radius: 8px;
   border: 1px solid var(--cinza-4);
+}
+
+.reclamacao + .reclamacao {
+  margin-top: 14px;
 }
 
 /* Cabeçalho */
@@ -366,24 +222,24 @@ main {
 }
 
 .acoes button:hover,
-#comentar.lista-comentarios-ativa {
+.acoes .lista-comentarios-ativa {
   background-color: var(--cinza-2);
 }
 
 /* Seção de comentários */
 
-#secao-comentarios.ocultar {
+.secao-comentarios.ocultar {
   display: none;
 }
 
 /* Adicionar comentário */
 
-.adicionar-comentario {
+.container-adicionar-comentario {
   display: flex;
   padding: 0 16px 20px;
 }
 
-.adicionar-comentario .avatar {
+.container-adicionar-comentario .avatar {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -397,7 +253,7 @@ main {
   border-radius: 50%;
 }
 
-.adicionar-comentario input {
+.container-adicionar-comentario input {
   flex: 1;
   padding: 10px 16px;
   font-size: 14px;
@@ -409,12 +265,15 @@ main {
 
 .comentarios {
   list-style: none;
-  padding-bottom: 20px;
 }
 
 .comentarios li {
   display: flex;
   padding: 0 16px;
+}
+
+.comentarios li:last-of-type {
+  padding-bottom: 20px;
 }
 
 .comentarios li + li {
@@ -444,15 +303,14 @@ main {
 }
 
 .comentarios li .conteudo-comentario header {
-  display: grid;
-  grid-template-areas: 'nome tipo-usuario tipo-usuario' 'profissao separador bairro';
-  grid-template-columns: max-content min-content max-content;
+  display: flex;
+  flex-wrap: wrap;
   gap: 2px 5px;
   padding-bottom: 8px;
 }
 
 .comentarios li .conteudo-comentario h4 {
-  grid-area: nome;
+  flex: 100%;
   color: var(--preto);
 }
 
@@ -473,22 +331,15 @@ main {
   background-color: var(--cinza-azulado);
 }
 
-.comentarios li .conteudo-comentario .profissao {
-  grid-area: profissao;
+.comentarios li .conteudo-comentario .profissao,
+.comentarios li .conteudo-comentario .bairro {
   color: var(--cinza-9);
 }
 
 .comentarios li .conteudo-comentario .separador {
-  grid-area: separador;
   color: var(--cinza-10);
 }
 
-.comentarios li .conteudo-comentario .bairro {
-  grid-area: bairro;
-  color: var(--cinza-9);
-}
-
 .comentarios li .conteudo-comentario p {
-  grid-area: texto;
   color: var(--preto);
 }
