@@ -12,3 +12,7 @@
     fill: rgba(88, 101, 242, 0.3);
     filter: brightness(100%) saturate(90%);
 }
+
+label {
+    color: #5f6163;
+}
