@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="./styles.css" />
 
     <script defer type="module" src="./script.js"></script>
-    <script defer src="../../utils/sairDaConta.js"></script>
+    <script defer type="module" src="../../utils/menu.js"></script>
   </head>
   <body>
     <!-- Cabeçalho e Menu de navegação -->
@@ -44,8 +44,8 @@
             <i class="ph ph-chart-pie-slice"></i>
           </a>
         </nav>
-        <div class="avatar">DM</div>
-        <button class="sair" type="button" onClick="sairDaConta()">
+        <div id="avatar-menu" class="avatar"></div>
+        <button id="sair-da-conta" class="sair" type="button">
           <i class="ph ph-sign-out"></i>
         </button>
       </div>
