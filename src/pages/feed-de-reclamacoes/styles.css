@@ -3,7 +3,6 @@
 main {
   max-width: 700px;
   margin: 0 auto;
-  margin-bottom: 500px; /* FIXME: remover */
 }
 
 /********************* Criar reclamação *********************/
@@ -221,9 +220,12 @@ main {
   font-size: 24px;
 }
 
-.acoes button:hover,
-.acoes .lista-comentarios-ativa {
+.acoes button:hover {
   background-color: var(--cinza-2);
+}
+
+.acoes button.ativo i {
+  color: var(--principal);
 }
 
 /* Seção de comentários */
@@ -234,12 +236,12 @@ main {
 
 /* Adicionar comentário */
 
-.container-adicionar-comentario {
+.form-adicionar-comentario {
   display: flex;
   padding: 0 16px 20px;
 }
 
-.container-adicionar-comentario .avatar {
+.form-adicionar-comentario .avatar {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -253,7 +255,7 @@ main {
   border-radius: 50%;
 }
 
-.container-adicionar-comentario input {
+.form-adicionar-comentario input {
   flex: 1;
   padding: 10px 16px;
   font-size: 14px;
@@ -303,14 +305,16 @@ main {
 }
 
 .comentarios li .conteudo-comentario header {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2px 5px;
   padding-bottom: 8px;
 }
 
+.comentarios li .conteudo-comentario header > div {
+  display: flex;
+  column-gap: 5px;
+  width: 100%;
+}
+
 .comentarios li .conteudo-comentario h4 {
-  flex: 100%;
   color: var(--preto);
 }
 
