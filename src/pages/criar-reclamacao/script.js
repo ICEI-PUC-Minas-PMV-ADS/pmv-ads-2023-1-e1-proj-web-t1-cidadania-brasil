@@ -1,6 +1,7 @@
-// FIXME: corrigir o nome da key do local storage pelo nome da aplicacao
-// FIXME: id_usuario, nome_usuario, profissao devem ser substituidos pelos dados que virão
-// do usuário autenticado. E também está faltando o ID da reclamação.
+import { buscarUsuarioLogado } from '../../utils/buscarUsuarioLogado';
+import { criarIniciaisNomeUsuario } from '../../utils/criarIniciaisNomeUsuario';
+
+const dadosUsuarioLogado = buscarUsuarioLogado();
 
 const formularioReclamacao = document.getElementById('formulario-reclamacao');
 const inputFile = document.getElementById('anexar-imagem');
@@ -11,6 +12,16 @@ formularioReclamacao.addEventListener('submit', cadastrarReclamacao);
 removerAnexo.addEventListener('click', removerImagemAnexada);
 inputFile.addEventListener('change', imagemAnexada);
 
+function inserirInformacoesUsuarioLogado() {
+  document.getElementById('avatar-usuario').textContent =
+    criarIniciaisNomeUsuario(dadosUsuarioLogado.nome);
+  document.getElementById(
+    'nome-usuario'
+  ).textContent = `${dadosUsuarioLogado.nome} ${dadosUsuarioLogado.sobrenome}`;
+  document.getElementById('profissao-usuario').textContent =
+    dadosUsuarioLogado.profissao;
+}
+
 async function cadastrarReclamacao(e) {
   e.preventDefault();
 
@@ -19,20 +30,21 @@ async function cadastrarReclamacao(e) {
   const textoReclamacao = document.getElementById('descricao-reclamacao').value;
   const imagem = await converterImagemParaBase64();
 
+  const reclamacoes = JSON.parse(localStorage.getItem('@nomeapp:reclamacoes'));
+
   const novaReclamacao = {
-    id_usuario: 1,
-    nome_usuario: 'João Victor',
-    profissao: 'Professor',
+    id: reclamacoes?.length || 0,
     categoria,
     bairro,
     texto_reclamacao: textoReclamacao,
     imagem,
+    curtidas: [],
+    comentarios: [],
     data: new Date(),
-    curtidas: 0,
-    comentarios: 0,
+    usuario: {
+      ...dadosUsuarioLogado,
+    },
   };
-
-  const reclamacoes = JSON.parse(localStorage.getItem('@nomeapp:reclamacoes'));
 
   localStorage.setItem(
     '@nomeapp:reclamacoes',
@@ -86,3 +98,5 @@ function removerImagemAnexada() {
   labelFile.classList.remove('ativo');
   removerAnexo.className = 'ocultar';
 }
+
+inserirInformacoesUsuarioLogado();

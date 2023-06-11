@@ -15,9 +15,6 @@ main h1 {
 }
 
 /* Cabeçalho  */
-/* FIXME: Reaprovetar o css abaixo, ele é usado no feed de reclamações e aqui.*/
-/* FIXME: Também reaproveitar o estilo do avatar  */
-/* FIXME: O estilo do select tbm, usado na feed de reclamacoes e aqui*/
 
 main > header {
   display: grid;
