@@ -53,8 +53,7 @@ async function cadastrarReclamacao(e) {
     )
   );
 
-  formularioReclamacao.reset();
-  removerImagemAnexada();
+  window.location.href = '../feed-de-reclamacoes/index.html';
 }
 
 async function converterImagemParaBase64() {

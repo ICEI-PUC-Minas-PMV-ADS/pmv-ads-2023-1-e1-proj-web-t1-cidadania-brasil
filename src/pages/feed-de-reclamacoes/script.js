@@ -62,7 +62,7 @@ function curtirReclamacao(reclamacaoId) {
   let curtidasEditadas = curtidasReclamacao;
 
   if (indiceCurtidaEncontrada >= 0) {
-    curtidasEditadas.splice(indiceCurtidaEncontrada);
+    curtidasEditadas.splice(indiceCurtidaEncontrada, 1);
   } else {
     curtidasEditadas.push(dadosUsuarioLogado.id);
   }
