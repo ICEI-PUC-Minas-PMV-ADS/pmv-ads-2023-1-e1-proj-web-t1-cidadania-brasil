@@ -1,9 +1,11 @@
 body {
   display: flex;
   min-height: 100vh;
+  background-color: var(--branco);
 }
 
 main {
+  padding: 115px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,32 +36,8 @@ main .conteudo-formulario form {
   flex-direction: column;
 }
 
-main .conteudo-formulario label {
-  font-weight: 500;
-  color: var(--cinza-9);
-  margin-bottom: 10px;
-}
-
 main .conteudo-formulario input + label {
   margin-top: 15px;
-}
-
-main .conteudo-formulario input {
-  padding: 11px;
-  background-color: transparent;
-  border-radius: 5px;
-  font-size: 16px;
-  color: var(--preto);
-  border: 1px solid var(--cinza-6);
-}
-
-main .conteudo-formulario button {
-  padding: 14.5px 0;
-  border-radius: 5px;
-  background-color: var(--principal);
-  border: none;
-  color: var(--branco);
-  font-size: 16px;
 }
 
 main .conteudo-formulario p {
@@ -83,5 +61,5 @@ main .conteudo-formulario a {
   background-image: url('../../assets/grupo-de-pessoas.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 115% center;
+  background-position: center;
 }

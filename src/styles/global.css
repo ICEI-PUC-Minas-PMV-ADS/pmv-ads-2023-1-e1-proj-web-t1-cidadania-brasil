@@ -183,3 +183,38 @@ a {
   font-size: 18px;
   color: var(--cinza-8);
 }
+
+/********************* Formulários *********************/
+
+form.formulario-do-usuario label {
+  display: block;
+  font-weight: 500;
+  color: var(--cinza-9);
+  margin-bottom: 10px;
+}
+
+form.formulario-do-usuario input {
+  width: 100%;
+  padding: 11px;
+  background-color: transparent;
+  border-radius: 5px;
+  font-size: 16px;
+  color: var(--preto);
+  border: 1px solid var(--cinza-6);
+}
+
+form.formulario-do-usuario .btn-submit {
+  width: 100%;
+  padding: 14.5px 0;
+  border-radius: 5px;
+  background-color: var(--principal);
+  border: none;
+  color: var(--branco);
+  font-size: 16px;
+  cursor: pointer;
+  transition: filter 0.2s;
+}
+
+form.formulario-do-usuario .btn-submit:hover {
+  filter: brightness(85%);
+}
