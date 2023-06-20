@@ -1,0 +1,114 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  background-color: var(--branco);
+}
+
+main {
+  padding: 115px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 50%;
+}
+
+main .conteudo-formulario {
+  width: 450px;
+}
+
+main .conteudo-formulario h1 {
+  font-size: 36px;
+  font-weight: 400;
+  color: var(--preto);
+  text-align: center;
+}
+
+main .conteudo-formulario h2 {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--cinza-9);
+  text-align: center;
+}
+
+main .conteudo-formulario form {
+  display: grid;
+  gap: 14px;
+  grid-template-areas:
+    'nome sobrenome'
+    'cidade bairro'
+    'profissao profissao'
+    'codigo codigo'
+    'email email'
+    'senha senha'
+    'btn btn';
+}
+
+main .conteudo-formulario form .container-input:nth-child(1) {
+  grid-area: nome;
+}
+
+main .conteudo-formulario form .container-input:nth-child(2) {
+  grid-area: sobrenome;
+}
+
+main .conteudo-formulario form .container-input:nth-child(3) {
+  grid-area: cidade;
+}
+
+main .conteudo-formulario form .container-input:nth-child(4) {
+  grid-area: bairro;
+}
+
+main .conteudo-formulario form .container-input:nth-child(5) {
+  grid-area: profissao;
+}
+
+main .conteudo-formulario form .container-input:nth-child(6) {
+  grid-area: codigo;
+}
+
+main .conteudo-formulario form .container-input:nth-child(7) {
+  grid-area: email;
+}
+
+main .conteudo-formulario form .container-input:nth-child(8) {
+  grid-area: senha;
+}
+
+main .conteudo-formulario button {
+  grid-area: btn;
+  margin-top: 6px;
+}
+
+hr {
+  margin: 20px 0;
+  border: 1px solid var(cinza-6);
+}
+
+main .conteudo-formulario a {
+  display: block;
+  padding: 14.5px 0;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 1px solid var(--principal);
+  color: var(--principal);
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+  text-align: center;
+}
+
+main .conteudo-formulario a:hover {
+  color: var(--branco);
+  background-color: var(--principal);
+}
+
+.imagem-de-fundo {
+  flex: 50%;
+  background-image: url('../../assets/edificios.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

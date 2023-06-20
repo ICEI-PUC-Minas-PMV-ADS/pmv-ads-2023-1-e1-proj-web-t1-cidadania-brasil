@@ -17,5 +17,50 @@
 
     <script defer src="./script.js"></script>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <div class="conteudo-formulario">
+        <h1>Crie sua conta</h1>
+        <h2>Preencha os campos abaixo para se cadastrar</h2>
+        <form id="formulario-cadastro-usuario" class="formulario-do-usuario">
+          <div class="container-input">
+            <label for="nome">Nome</label>
+            <input id="nome" type="text" required />
+          </div>
+          <div class="container-input">
+            <label for="sobrenome">Sobrenome</label>
+            <input id="sobrenome" type="text" required />
+          </div>
+          <div class="container-input">
+            <label for="cidade">Cidade</label>
+            <input id="cidade" type="text" required />
+          </div>
+          <div class="container-input">
+            <label for="bairro">Bairro</label>
+            <input id="bairro" type="text" required />
+          </div>
+          <div class="container-input">
+            <label for="profissao">Profissão</label>
+            <input id="profissao" type="text" required />
+          </div>
+          <div class="container-input">
+            <label for="codigo-gestor">Código para gestores</label>
+            <input id="codigo-gestor" type="text" />
+          </div>
+          <div class="container-input">
+            <label for="email">E-mail</label>
+            <input id="email" type="email" required />
+          </div>
+          <div class="container-input">
+            <label for="senha">Senha</label>
+            <input id="senha" type="password" required />
+          </div>
+          <button class="btn-submit" type="submit">Cadastrar</button>
+        </form>
+        <hr />
+        <a href="../login/index.html">Faça login</a>
+      </div>
+    </main>
+    <div class="imagem-de-fundo"></div>
+  </body>
 </html>
