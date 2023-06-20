@@ -16,32 +16,25 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="container">
-      <h1>Redefinir Senha</h1>
-      <form>
-        <label for="email">Endereço de Email:</label>
-        <input type="email" id="email" name="email" required />
+    <main>
+      <h1>Escolha uma nova senha</h1>
+      <h2>Preencha os campos abaixo</h2>
+      <form id="formulario-recuperar-senha" class="formulario-do-usuario">
+        <label for="email">E-mail</label>
+        <input id="email" type="email" required />
 
-        <label for="password">Nova Senha:</label>
-        <input
-          type="password"
-          id="password"
-          name="password"
-          minlength="8"
-          required
-        />
+        <label for="nova-senha">Nova senha</label>
+        <input id="nova-senha" type="password" required />
 
-        <label for="password_confirm">Confirmar Nova Senha:</label>
-        <input
-          type="password"
-          id="password_confirm"
-          name="password_confirm"
-          minlength="8"
-          required
-        />
+        <label for="repetir-nova-senha">Repita a nova senha</label>
+        <input id="repetir-nova-senha" type="password" required />
 
-        <button type="submit">Redefinir Senha</button>
+        <button class="btn-submit" type="submit">Salvar</button>
       </form>
-    </div>
+      <p>
+        <a href="../cadastro-usuario/index.html">Cadastre-se</a> ou
+        <a href="../login/index.html">Entre</a>
+      </p>
+    </main>
   </body>
 </html>
