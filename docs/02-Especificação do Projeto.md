@@ -63,17 +63,12 @@ Segue abaixo a tabela que lista os requisitos do projeto, identificando a ordem 
 |------|-----------------------------------------|----|
 |RF-001| O site deve oferecer ao usuário a funcionalidade de se cadastrar | ALTA |
 |RF-002| O site deve oferecer ao usuário a funcionalidade de realizar login | ALTA |
-|RF-003| O site deve apresentar em sua página inicial as funcionalidades de “reclamar” e “histórico do setor reclamado” | ALTA |
+|RF-003| O site deve apresentar a funcionalidade de "reclamar" | ALTA |
 |RF-004| O site deve oferecer ao usuário a opção de “curtir” uma reclamação | MÉDIA |
 |RF-005| O site deve oferecer ao usuário a opção de criar comentários em reclamações | ALTA |
-|RF-006| O site deve apresentar, no histórico da reclamação, a quantidade de curtidas, imagens e comentários dos demais usuários | MÉDIA |
-|RF-007| O site deve oferecer ao usuário uma página para verificar a reputação de determinado setor com base na resolução de reclamações | MÉDIA |
+|RF-006| O site deve exibir, em cada reclamação, a quantidade de curtidas e comentários recebidos. | ALTA |
+|RF-007| O site deve fornecer uma lista de comentários feitos por outros usuários para cada reclamação | ALTA |
 |RF-008| O site deve permitir que o setor reclamado possa postar uma réplica em relação a reclamação | ALTA |
-|RF-009| O site deve permitir que o responsável pela reclamação possa postar a tréplica confirmando a solução, ou não, do problema | ALTA |
-|RF-010| O site deve permitir o compartilhamento de reclamações postadas em plataformas de redes sociais | BAIXA |
-|RF-011| O site deve permitir seguir a reclamação de interesse a fim de acompanhar as atualizações | BAIXA |
-|RF-012| O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar um texto específico que será informado na caixa de pesquisa | BAIXA |
-|RF-013| O site deve permitir que o usuário dê uma nota para sua experiência com o site | BAIXA |
 
 ### Requisitos não Funcionais
 
@@ -93,5 +88,5 @@ As questões que limitam a execução deste projeto e que se configuram como obr
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |RE-01| O projeto deve ser entregue ao final do semestre letivo não podendo extrapolar |
-|RE-02| O aplicativo deverá ser restringir às tecnologias básicas de Web Front-end |
+|RE-02| O aplicativo deverá se restringir às tecnologias básicas de Web Front-end |
 |RE-03| A equipe não pode subcontratar o desenvolvimento do trabalho |
