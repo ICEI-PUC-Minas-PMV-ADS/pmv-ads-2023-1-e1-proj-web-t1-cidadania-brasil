@@ -6,34 +6,34 @@ body {
 }
 
 main {
-  max-width: 700px;
-  padding: 90px 115px;
+  max-width: 43.75rem;
+  padding: 5.625rem 7.188rem;
   background-color: var(--branco);
   border: 1px solid var(--cinza-4);
-  border-radius: 8px;
+  border-radius: 0.5rem;
 }
 
 main h1 {
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 400;
   color: var(--preto);
   text-align: center;
 }
 
 main h2 {
-  margin-bottom: 40px;
-  font-size: 16px;
+  margin-bottom: 2.5rem;
+  font-size: 1rem;
   font-weight: 500;
   color: var(--cinza-9);
   text-align: center;
 }
 
 main form input + label {
-  margin-top: 15px;
+  margin-top: 0.938rem;
 }
 
 main form button {
-  margin: 20px 0;
+  margin: 1.25rem 0;
 }
 
 main p {
@@ -48,4 +48,18 @@ main a {
 
 main a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 720px) {
+  body {
+    background-color: var(--branco);
+  }
+
+  main {
+    max-width: 28.125rem;
+    width: 100%;
+    margin: 2.5rem;
+    padding: 0;
+    border: none;
+  }
 }

@@ -5,7 +5,7 @@ body {
 }
 
 main {
-  padding: 115px 0;
+  padding: 7.188rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,19 +13,21 @@ main {
 }
 
 main .conteudo-formulario {
-  width: 450px;
+  max-width: 28.125rem;
+  width: 100%;
+  margin: 0 2.5rem;
 }
 
 main .conteudo-formulario h1 {
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 400;
   color: var(--preto);
   text-align: center;
 }
 
 main .conteudo-formulario h2 {
-  margin-bottom: 40px;
-  font-size: 16px;
+  margin-bottom: 2.5rem;
+  font-size: 1rem;
   font-weight: 500;
   color: var(--cinza-9);
   text-align: center;
@@ -37,18 +39,18 @@ main .conteudo-formulario form {
 }
 
 main .conteudo-formulario input + label {
-  margin-top: 15px;
+  margin-top: 0.938rem;
 }
 
 main .conteudo-formulario p {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 1.25rem;
   color: var(--cinza-9);
 }
 
 main .conteudo-formulario form > a {
   text-align: center;
-  margin: 20px 0;
+  margin: 1.25rem 0;
 }
 
 main .conteudo-formulario a {
@@ -66,4 +68,25 @@ main .conteudo-formulario a:hover {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+@media (max-width: 900px) {
+  body {
+    flex-direction: column;
+  }
+
+  main {
+    background-color: var(--branco);
+    transform: translateY(-2.5rem);
+    flex: initial;
+    padding: 3.125rem 0;
+    border-radius: 0.75rem 0.75rem 0 0;
+  }
+
+  .imagem-de-fundo {
+    background-attachment: fixed;
+    flex: initial;
+    order: -1;
+    height: 13.75rem;
+  }
 }
