@@ -51,30 +51,33 @@ a {
 /********************* Menu de navegação *********************/
 
 .menu {
-  padding: 9px 0;
+  display: flex;
+  justify-content: center;
+  padding: 0.563rem 0;
   background-color: var(--branco);
   border-bottom: 1px solid var(--cinza-4);
 }
 
 .menu .container-menu {
   display: flex;
-  max-width: 700px;
-  margin: 0 auto;
+  max-width: 43.75rem;
+  width: 100%;
+  margin: 0 2.5rem;
 }
 
 /* Logo */
 
 .menu .logo {
-  margin-right: 12px;
+  margin-right: 0.75rem;
   line-height: 0;
-  border-radius: 5px;
+  border-radius: 0.313rem;
   background-color: var(--cinza-2);
   border: 1px solid var(--cinza-4);
 }
 
 .menu .logo img {
-  width: 24px;
-  margin: 4px;
+  width: 1.5rem;
+  margin: 0.25rem;
 }
 
 /* Barra de busca */
@@ -82,21 +85,22 @@ a {
 .menu .nome-app {
   display: flex;
   align-items: center;
-  max-width: 280px;
+  max-width: 17.5rem;
   width: 100%;
+  margin-right: 0.75rem;
 }
 
 .menu .nome-app p {
   display: flex;
   align-items: center;
   height: 100%;
-  padding: 0 13px;
-  border-radius: 4px;
+  padding: 0 0.813rem;
+  border-radius: 0.25rem;
   background-color: var(--cinza-2);
-  font: 700 14px 'Play', sans-serif;
+  font: 700 0.875rem 'Play', sans-serif;
   color: rgba(0, 0, 0, 0.6);
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 0.063rem;
 }
 
 /* Links de nevegação */
@@ -106,7 +110,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0 16px;
+  gap: 0 1rem;
 }
 
 .menu nav a {
@@ -114,11 +118,11 @@ a {
   display: flex;
   align-items: center;
   height: 100%;
-  padding: 0 6px;
+  padding: 0 0.375rem;
 }
 
 .menu nav a i {
-  font-size: 24px;
+  font-size: 1.5rem;
   color: var(--cinza-9);
 }
 
@@ -132,8 +136,8 @@ a {
   position: absolute;
   inset: 0;
   top: initial;
-  bottom: -6px;
-  height: 1px;
+  bottom: -0.375rem;
+  height: 0.063rem;
   background-color: transparent;
 }
 
@@ -156,11 +160,11 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 34px;
-  height: 34px;
-  margin-right: 12px;
+  min-width: 2.125rem;
+  height: 2.125rem;
+  margin: 0 0.75rem;
   color: var(--cinza-8);
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
   background-color: var(--cinza-2);
   border-radius: 50%;
@@ -172,13 +176,13 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 24px;
-  height: 24px;
+  width: 1.5rem;
+  height: 1.5rem;
   margin: auto 0;
   cursor: pointer;
   background-color: transparent;
   border: 0;
-  border-radius: 4px;
+  border-radius: 0.25rem;
 }
 
 .menu .sair:hover {
@@ -187,8 +191,14 @@ a {
 }
 
 .menu .sair i {
-  font-size: 18px;
+  font-size: 1.125rem;
   color: var(--cinza-8);
+}
+
+@media (max-width: 470px) {
+  .menu .nome-app {
+    display: none;
+  }
 }
 
 /********************* Formulários *********************/
@@ -197,27 +207,27 @@ form.formulario-do-usuario label {
   display: block;
   font-weight: 500;
   color: var(--cinza-9);
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 form.formulario-do-usuario input {
   width: 100%;
-  padding: 11px;
+  padding: 0.688rem;
   background-color: transparent;
-  border-radius: 5px;
-  font-size: 16px;
+  border-radius: 0.313rem;
+  font-size: 1rem;
   color: var(--preto);
   border: 1px solid var(--cinza-6);
 }
 
 form.formulario-do-usuario .btn-submit {
   width: 100%;
-  padding: 14.5px 0;
-  border-radius: 5px;
+  padding: 0.906rem 0;
+  border-radius: 0.313rem;
   background-color: var(--principal);
   border: none;
   color: var(--branco);
-  font-size: 16px;
+  font-size: 1rem;
   cursor: pointer;
   transition: filter 0.2s;
 }
