@@ -56,6 +56,10 @@ main .conteudo-formulario a {
   color: var(--preto);
 }
 
+main .conteudo-formulario a:hover {
+  text-decoration: underline;
+}
+
 .imagem-de-fundo {
   flex: 50%;
   background-image: url('../../assets/grupo-de-pessoas.jpg');

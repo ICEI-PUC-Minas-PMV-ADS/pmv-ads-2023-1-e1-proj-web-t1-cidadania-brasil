@@ -44,7 +44,7 @@
         <form id="formulario-cadastro-usuario" class="formulario-do-usuario">
           <div class="container-input">
             <label for="nome">Nome</label>
-            <input id="nome" type="text" required />
+            <input id="nome" type="text" required autofocus />
           </div>
           <div class="container-input">
             <label for="sobrenome">Sobrenome</label>
@@ -64,7 +64,7 @@
           </div>
           <div class="container-input">
             <label for="codigo-gestor">Código para gestores</label>
-            <input id="codigo-gestor" type="text" />
+            <input id="codigo-gestor" type="text" autocomplete="off" />
           </div>
           <div class="container-input">
             <label for="email">E-mail</label>
@@ -72,7 +72,7 @@
           </div>
           <div class="container-input">
             <label for="senha">Senha</label>
-            <input id="senha" type="password" required />
+            <input id="senha" type="password" minlength="8" required />
           </div>
           <button class="btn-submit" type="submit">Cadastrar</button>
         </form>

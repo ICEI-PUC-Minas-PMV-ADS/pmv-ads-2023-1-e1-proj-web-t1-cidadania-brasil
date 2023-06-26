@@ -42,13 +42,13 @@
       <h2>Preencha os campos abaixo</h2>
       <form id="formulario-recuperar-senha" class="formulario-do-usuario">
         <label for="email">E-mail</label>
-        <input id="email" type="email" required />
+        <input id="email" type="email" required autofocus />
 
         <label for="nova-senha">Nova senha</label>
-        <input id="nova-senha" type="password" required />
+        <input id="nova-senha" type="password" minlength="8" required />
 
         <label for="repetir-nova-senha">Repita a nova senha</label>
-        <input id="repetir-nova-senha" type="password" required />
+        <input id="repetir-nova-senha" type="password" minlength="8" required />
 
         <button class="btn-submit" type="submit">Salvar</button>
       </form>

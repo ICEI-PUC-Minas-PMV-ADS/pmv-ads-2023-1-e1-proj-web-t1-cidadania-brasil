@@ -43,10 +43,10 @@
         <h2>Preencha os campos abaixo</h2>
         <form id="formulario-login" class="formulario-do-usuario">
           <label for="email">E-mail</label>
-          <input id="email" type="email" required />
+          <input id="email" type="email" required autofocus/>
 
           <label for="senha">Senha</label>
-          <input id="senha" type="password" required />
+          <input id="senha" type="password" minlength="8" required />
 
           <a href="../recuperar-senha/index.html">Esqueceu a senha?</a>
           <button class="btn-submit" type="submit">Entrar</button>
