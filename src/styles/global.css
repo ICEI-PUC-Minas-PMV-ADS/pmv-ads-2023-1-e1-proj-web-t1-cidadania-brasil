@@ -6,13 +6,13 @@
 }
 
 :root {
-  --principal: #5865f2;
+  --principal: #00aa8c;
+  --secundaria: #00dc82;
   --branco: #ffffff;
   --preto: #030303;
   --fundo: #f3f2ef;
   --cinza-azulado: #56687a;
   --vermelho: #eb3b5a;
-  --verde: #27ae60;
   --amarelo: #f7b731;
 
   --cinza-1: #eef3f8;
@@ -61,8 +61,8 @@ a {
 }
 
 .menu .logo img {
-  width: 18px;
-  margin: 7px;
+  width: 24px;
+  margin: 4px;
 }
 
 /* Barra de busca */
@@ -80,7 +80,7 @@ a {
   height: 100%;
   padding: 0 13px;
   border-radius: 4px;
-  background-color: var(--cinza-1);
+  background-color: var(--cinza-2);
   font: 700 14px 'Play', sans-serif;
   color: rgba(0, 0, 0, 0.6);
   text-transform: uppercase;
