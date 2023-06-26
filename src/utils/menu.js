@@ -10,7 +10,7 @@ function inserirIniciaisUsuarioLogado() {
 
 const btnSairDaConta = document.getElementById('sair-da-conta');
 btnSairDaConta.addEventListener('click', () => {
-  localStorage.removeItem('@nomeapp:usuario-logado');
+  localStorage.removeItem('@cidadania-brasil:usuario-logado');
   window.location.href = '../login/index.html';
 });
 

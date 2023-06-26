@@ -30,7 +30,7 @@ async function cadastrarReclamacao(e) {
   const textoReclamacao = document.getElementById('descricao-reclamacao').value;
   const imagem = await converterImagemParaBase64();
 
-  const reclamacoes = JSON.parse(localStorage.getItem('@nomeapp:reclamacoes'));
+  const reclamacoes = JSON.parse(localStorage.getItem('@cidadania-brasil:reclamacoes'));
 
   const novaReclamacao = {
     id: reclamacoes?.length || 0,
@@ -47,7 +47,7 @@ async function cadastrarReclamacao(e) {
   };
 
   localStorage.setItem(
-    '@nomeapp:reclamacoes',
+    '@cidadania-brasil:reclamacoes',
     JSON.stringify(
       reclamacoes ? [...reclamacoes, novaReclamacao] : [novaReclamacao]
     )

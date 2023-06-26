@@ -10,7 +10,11 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <title>NomeApp: feed</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Cidadania Brasil: feed</title>
 
     <script type="module">
       import '@phosphor-icons/web/regular';
@@ -30,9 +34,8 @@
         <div class="logo">
           <img src="../../assets/logo.svg" alt="Megafone" />
         </div>
-        <div class="barra-de-busca">
-          <i class="ph ph-magnifying-glass"></i>
-          <input type="search" name="" id="" placeholder="Pesquisar" />
+        <div class="nome-app">
+          <p>Cidadania Brasil</p>
         </div>
         <nav>
           <a href="../feed-de-reclamacoes/index.html" class="link-ativo">
@@ -40,9 +43,6 @@
           </a>
           <a href="../criar-reclamacao/index.html">
             <i class="ph ph-chat-centered-dots"></i>
-          </a>
-          <a href="../desempenho-dos-setores/index.html">
-            <i class="ph ph-chart-pie-slice"></i>
           </a>
         </nav>
         <div id="avatar-menu" class="avatar"></div>
@@ -58,24 +58,7 @@
         <div class="avatar">DM</div>
         <a href="../criar-reclamacao/index.html">Começar reclamação</a>
       </section>
-      <!-- Filtros -->
-      <section class="filtros">
-        <select name="setor-reclamacao">
-          <option value="todos">Todos</option>
-          <option value="seguranca">Segurança</option>
-          <option value="saude">Saúde</option>
-          <option value="educacao">Educação</option>
-          <option value="transporte">Transporte</option>
-          <option value="meio-ambiente">Meio Ambiente</option>
-          <option value="urbanismo">Urbanismo</option>
-        </select>
-        <select name="classificar-por">
-          <option value="populares">Populares</option>
-          <option value="recentes">Recentes</option>
-        </select>
-        <button type="button">Minhas reclamações</button>
-        <button type="button">Reclamações Salvas</button>
-      </section>
+      <hr />
       <!-- Reclamações -->
       <div id="container-reclamacoes"></div>
     </main>

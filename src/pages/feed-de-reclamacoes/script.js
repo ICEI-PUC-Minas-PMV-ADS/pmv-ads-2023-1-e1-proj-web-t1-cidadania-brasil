@@ -24,7 +24,7 @@ function adicionarComentario(e, reclamacaoId) {
     `input-comentar-${reclamacaoId}`
   ).value;
 
-  const reclamacoes = JSON.parse(localStorage.getItem('@nomeapp:reclamacoes'));
+  const reclamacoes = JSON.parse(localStorage.getItem('@cidadania-brasil:reclamacoes'));
 
   const comentario = {
     id: reclamacoes[reclamacaoId].comentarios.length || 0,
@@ -42,7 +42,7 @@ function adicionarComentario(e, reclamacaoId) {
   );
 
   localStorage.setItem(
-    '@nomeapp:reclamacoes',
+    '@cidadania-brasil:reclamacoes',
     JSON.stringify(reclamacoesEditadas)
   );
 
@@ -53,7 +53,7 @@ function adicionarComentario(e, reclamacaoId) {
 }
 
 function curtirReclamacao(reclamacaoId) {
-  const reclamacoes = JSON.parse(localStorage.getItem('@nomeapp:reclamacoes'));
+  const reclamacoes = JSON.parse(localStorage.getItem('@cidadania-brasil:reclamacoes'));
   const curtidasReclamacao = reclamacoes[reclamacaoId].curtidas;
   const indiceCurtidaEncontrada = curtidasReclamacao.indexOf(
     dadosUsuarioLogado.id
@@ -74,45 +74,8 @@ function curtirReclamacao(reclamacaoId) {
   );
 
   localStorage.setItem(
-    '@nomeapp:reclamacoes',
+    '@cidadania-brasil:reclamacoes',
     JSON.stringify(reclamacoesEditadas)
-  );
-
-  montarEstruturaReclamacao({
-    apagarReclamacoesNaDOM: true,
-    idReclamacaoAlterada: verificarSeASecaoComentariosEstaAberta(reclamacaoId),
-  });
-}
-
-function salvarReclamacao(reclamacaoId) {
-  const usuarios = JSON.parse(localStorage.getItem('@nomeapp:usuarios'));
-  const reclamacoesSalvas = usuarios[dadosUsuarioLogado.id].reclamacoes_salvas;
-  const indiceReclamacaoSalvaEncontrada =
-    reclamacoesSalvas.indexOf(reclamacaoId);
-
-  let reclamacoesSalvasEditadas = reclamacoesSalvas;
-
-  if (indiceReclamacaoSalvaEncontrada >= 0) {
-    reclamacoesSalvasEditadas.splice(indiceReclamacaoSalvaEncontrada);
-  } else {
-    reclamacoesSalvasEditadas.push(reclamacaoId);
-  }
-
-  const usuariosEditados = usuarios.map(usuario =>
-    usuario.id === dadosUsuarioLogado.id
-      ? { ...usuario, reclamacoes_salvas: reclamacoesSalvas }
-      : usuario
-  );
-
-  const usuarioLogadoEditado = {
-    ...dadosUsuarioLogado,
-    reclamacoes_salvas: reclamacoesSalvas,
-  };
-
-  localStorage.setItem('@nomeapp:usuarios', JSON.stringify(usuariosEditados));
-  localStorage.setItem(
-    '@nomeapp:usuario-logado',
-    JSON.stringify(usuarioLogadoEditado)
   );
 
   montarEstruturaReclamacao({
@@ -131,7 +94,7 @@ function montarEstruturaReclamacao({
     containerReclamacoes.innerHTML = '';
   }
 
-  const reclamacoes = JSON.parse(localStorage.getItem('@nomeapp:reclamacoes'));
+  const reclamacoes = JSON.parse(localStorage.getItem('@cidadania-brasil:reclamacoes'));
 
   if (!reclamacoes) return;
 
@@ -253,30 +216,6 @@ function montarEstruturaReclamacao({
     textoComentar.textContent = 'Comentar';
     btnComentar.appendChild(textoComentar);
 
-    const btnSalvarAtivo = buscarUsuarioLogado().reclamacoes_salvas.find(
-      idReclamacaoSalva => idReclamacaoSalva === reclamacao.id
-    );
-
-    const btnSalvar = document.createElement('button');
-    btnSalvar.setAttribute('type', 'button');
-    btnSalvar.className = `${btnSalvarAtivo >= 0 ? 'ativo' : ''}`;
-    btnSalvar.addEventListener('click', () => {
-      salvarReclamacao(reclamacao.id);
-    });
-    acoes.appendChild(btnSalvar);
-
-    const iconeSalvar = document.createElement('i');
-    iconeSalvar.className = `${
-      btnSalvarAtivo >= 0
-        ? 'ph-fill ph-bookmark-simple'
-        : 'ph ph-bookmark-simple'
-    }`;
-    btnSalvar.appendChild(iconeSalvar);
-
-    const textoSalvar = document.createElement('span');
-    textoSalvar.textContent = 'Salvar';
-    btnSalvar.appendChild(textoSalvar);
-
     montarEstruturaComentarios({
       container: article,
       reclamacao,
@@ -323,7 +262,7 @@ function montarEstruturaComentarios({
   listaComentarios.className = 'comentarios';
   secaoComentarios.appendChild(listaComentarios);
 
-  const reclamacoes = JSON.parse(localStorage.getItem('@nomeapp:reclamacoes'));
+  const reclamacoes = JSON.parse(localStorage.getItem('@cidadania-brasil:reclamacoes'));
   const comentarios = reclamacoes[reclamacaoId].comentarios.reverse();
 
   if (!comentarios) return;

@@ -15,7 +15,7 @@ function cadastrarUsuario(e) {
   const email = document.getElementById('email').value;
   const senha = document.getElementById('senha').value;
 
-  const usuarios = JSON.parse(localStorage.getItem('@nomeapp:usuarios'));
+  const usuarios = JSON.parse(localStorage.getItem('@cidadania-brasil:usuarios'));
 
   const usuarioExiste = usuarios?.find(usuario => email === usuario.email);
 
@@ -34,7 +34,6 @@ function cadastrarUsuario(e) {
     email,
     senha,
     tipo_usuario: null,
-    reclamacoes_salvas: [],
   };
 
   if (codigoGestor) {
@@ -49,7 +48,7 @@ function cadastrarUsuario(e) {
   }
 
   localStorage.setItem(
-    '@nomeapp:usuarios',
+    '@cidadania-brasil:usuarios',
     JSON.stringify(usuarios ? [...usuarios, novoUsuario] : [novoUsuario])
   );
 

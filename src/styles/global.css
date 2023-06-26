@@ -67,29 +67,24 @@ a {
 
 /* Barra de busca */
 
-.menu .barra-de-busca {
+.menu .nome-app {
   display: flex;
   align-items: center;
-  gap: 0 8px;
   max-width: 280px;
   width: 100%;
+}
+
+.menu .nome-app p {
+  display: flex;
+  align-items: center;
+  height: 100%;
   padding: 0 13px;
   border-radius: 4px;
   background-color: var(--cinza-1);
-}
-
-.menu .barra-de-busca input {
-  width: 100%;
-  font-size: 14px;
-  color: var(--preto);
-  border: 0;
-  outline: none;
-  background-color: transparent;
-}
-
-.menu .barra-de-busca i {
-  font-size: 16px;
-  color: var(--cinza-9);
+  font: 700 14px 'Play', sans-serif;
+  color: rgba(0, 0, 0, 0.6);
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 /* Links de nevegação */

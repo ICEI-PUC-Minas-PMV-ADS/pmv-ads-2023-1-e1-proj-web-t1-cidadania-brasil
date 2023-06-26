@@ -8,7 +8,7 @@ function recuperarSenha(e) {
   const novaSenha = document.getElementById('nova-senha').value;
   const repetirNovaSenha = document.getElementById('repetir-nova-senha').value;
 
-  const usuarios = JSON.parse(localStorage.getItem('@nomeapp:usuarios'));
+  const usuarios = JSON.parse(localStorage.getItem('@cidadania-brasil:usuarios'));
 
   const usuarioExiste = usuarios?.find(usuario => email === usuario.email);
 
@@ -26,7 +26,7 @@ function recuperarSenha(e) {
     email === usuario.email ? { ...usuario, senha: novaSenha } : usuario
   );
 
-  localStorage.setItem('@nomeapp:usuarios', JSON.stringify(usuariosEditados));
+  localStorage.setItem('@cidadania-brasil:usuarios', JSON.stringify(usuariosEditados));
 
   alert('Senha alterada com sucesso');
 

@@ -1,6 +1,6 @@
 export function buscarUsuarioLogado() {
   const usuarioLogado = JSON.parse(
-    localStorage.getItem('@nomeapp:usuario-logado')
+    localStorage.getItem('@cidadania-brasil:usuario-logado')
   );
 
   if (usuarioLogado) {
