@@ -23,16 +23,11 @@ processo de desenvolvimento.
 
 A equipe está organizada da seguinte maneira:
 
-* Scrum Master: Lucas Lousada Batalha dos Santos
-* Product Owner: Felipe Alexandre da Silva
-* Equipe de Desenvolvimento:
-    * João Victor Bragança
-    * Danilo Marques da Fonseca
-* Equipe de Design: Matheus Vitor Lourenço
+O integrante Lucas Lousada Batalha dos Santos está responsável pelas funções de Scrum Master, Product Owner, Desenvolvimento, e Design.
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub Project estruturado com as seguintes colunas:
 
-  *  Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
+  * Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
   * To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
   * In progress: Quando uma tarefa tiver sido iniciada, ela é movida para cá.
   * Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou     revisões necessárias, ele está agendado e pronto para a ação.

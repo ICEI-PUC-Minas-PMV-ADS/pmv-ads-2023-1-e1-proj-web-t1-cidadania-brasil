@@ -1,3 +1,5 @@
+<img alt="Logotipo" title="Logo" src="./src/assets/logo.svg" width="130px"/>
+
 # Cidadania Brasil
 
 `Análise e Desenvolvimento de Sistemas`
@@ -49,7 +51,7 @@ $ npm run dev
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+* <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t1-registro-de-reclamacoes/src/pages/login/index.html">GitHub Pages</a>
 
 # Armazenamento do Código-Fonte
 

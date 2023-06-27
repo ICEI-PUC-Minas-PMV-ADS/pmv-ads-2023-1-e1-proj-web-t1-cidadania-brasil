@@ -51,13 +51,7 @@ A tela criar conta é onde o usuário pode criar sua conta ou ser redirecionado 
 
 ### Tela - Feed de Reclamações
 
-A tela de feed de reclamações exibe todas as reclamações criadas pelos usuários. O gestor tem permissão para criar comentários, enquanto o autor da reclamação pode responder a eles ou encerrar a reclamação. O usuário pode interagir com as reclamações de diversas maneiras, como curtir, comentar e salvar. Além disso, é possível filtrá-las por meio das seguintes opções:
-
-  - Palavras-chave, por meio da barra de busca;
-  - Setor reclamado;
-  - Ordenar por mais recentes ou mais populares;
-  - Ver apenas as próprias reclamações;
-  - Ver as reclamações salvas.
+A tela de feed de reclamações exibe todas as reclamações criadas pelos usuários. Os usuários têm a opção de curtir e comentar uma reclamação. Além disso, os usuários gestores têm a capacidade de criar réplicas por meio da seção de comentários.
 
 | ![Figura 9 - Tela de Feed de Reclamações](./img/tela-feed-reclamacoes.png "Figura 9")
 |:--:| 
@@ -65,16 +59,8 @@ A tela de feed de reclamações exibe todas as reclamações criadas pelos usuá
 
 ### Tela - Criar uma reclamação
 
-A tela de criação de reclamações é onde o usuário pode registrar uma reclamação descrevendo o problema, anexando imagens relevantes, selecionando o setor responsável pela reclamação e informando o bairro onde ocorre.
+A tela de criação de reclamações é onde o usuário pode registrar uma reclamação descrevendo o problema, anexando imagem, selecionando o setor responsável pela reclamação e informando o bairro onde ocorre.
 
 | ![Figura 10 - Tela para Criar uma reclamação](./img/tela-criar-reclamacao.png "Figura 10")
 |:--:| 
 | *Figura 10 - Tela para Criar uma reclamação* |
-
-### Tela - Eficiência dos Setores Reclamados
-
-A tela de eficiência dos setores reclamados é onde o usuário pode verificar a eficácia de cada setor onde as reclamações foram registradas.
-
-| ![Figura 11 - Tela de Eficiência dos Setores Reclamados](./img/tela-ranking-setores-reclamados.png "Figura 11")
-|:--:| 
-| *Figura 11 - Tela de Eficiência dos Setores Reclamados* |

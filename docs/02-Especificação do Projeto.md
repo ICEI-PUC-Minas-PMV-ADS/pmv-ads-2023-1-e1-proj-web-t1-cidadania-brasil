@@ -42,14 +42,10 @@ Foram registradas as seguintes histórias de usuário após compreender o cotidi
 | Rodrigo/Maria das Graças | me cadastrar no sistema                                            | ter um perfil na aplicação                                                                          |
 | Rodrigo/Maria das Graças | realizar o login no sistema com minha conta de usuário             | visualizar as informações de meu perfil                                                             |
 | Rodrigo/Maria das Graças | realizar reclamações dentro do sistema                             | melhorar a infraestrutura de minha cidade/bairro                                                    |
-| Rodrigo/Maria das Graças | filtrar as reclamações do sistema de acordo com meus critérios     | visualizar as reclamações que mais me interessam                                                    |
 | Rodrigo/Maria das Graças | adicionar comentários a uma publicação                             | expressar minha opinião e participar do debate                                                      |
 | Rodrigo/Maria das Graças | curtir uma reclamação  | dar visibilidade à relevância dessa reclamação                                                      |
 | Rodrigo/Maria das Graças | visualizar o histórico de comentários e curtidas de uma reclamação | ter maior visibilidade do que foi discutido e apreciado durante o debate da reclamação              |
-| Rodrigo/Maria das Graças | compartilhar uma reclamação em redes sociais                       | compartilhar com minha rede de amigos e ampliar a discussão sobre o tema                            |
-| Rodrigo/Maria das Graças | visualizar informações quanto os setores reclamados                | ter noção de saber como anda as reclamações e resoluçào de acordo com cada setor                    |
 | Márcio Valadares         | devo ser capaz de responder à uma reclamação                       | dar uma resolução à reclamação ao usuário que a cadastrou                                           |
-| Rodrigo/Maria das Graças | avaliar minha experiência com o setor reclamado                    | dar visibilidade aos outros usuários do sistema o quanto satisfeito estou com a solução apresentada |
 
 ## Requisitos
 
@@ -69,6 +65,7 @@ Segue abaixo a tabela que lista os requisitos do projeto, identificando a ordem 
 |RF-006| O site deve exibir, em cada reclamação, a quantidade de curtidas e comentários recebidos. | ALTA |
 |RF-007| O site deve fornecer uma lista de comentários feitos por outros usuários para cada reclamação | ALTA |
 |RF-008| O site deve permitir que o setor reclamado possa postar uma réplica em relação a reclamação | ALTA |
+|RF-009| O site deve permitir que o usuário altere sua senha caso a tenha esquecido | ALTA |
 
 ### Requisitos não Funcionais
 
