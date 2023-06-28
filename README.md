@@ -51,7 +51,7 @@ $ npm run dev
 
 # Hospedagem
 
-* <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t1-registro-de-reclamacoes/src/pages/login/index.html">GitHub Pages</a>
+* <a href="https://cidadania-brasil.vercel.app/">Clique aqui</a>
 
 # Armazenamento do Código-Fonte
 
