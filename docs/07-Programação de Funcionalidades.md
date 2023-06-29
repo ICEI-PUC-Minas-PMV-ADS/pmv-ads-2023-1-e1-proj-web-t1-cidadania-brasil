@@ -88,17 +88,17 @@ A página de Login apresenta a funcionalidade do usuário comum ou gestor acessa
 
 - Acesse a seguinte URL: [Cidadania Brasil](https://cidadania-brasil.vercel.app/).
 
-## Página de Recuperação da Senha (RF-009)
+## Página de Recuperação da Senha (RF-003)
 
 A página de recuperação da senha apresenta a funcionalidade do usuário comum ou gestor alterar sua senha. Os dados editados do usuário são armazenados no LocalStorage com estruturas de dados baseadas em JSON. Um exemplo da tela é apresentada na Figura X.
 
 | ![Figura X - Página de Recuperação da Senha](./img/tela-recuperar-senha.png 'Figura X')
 |:--:|
-| _Figura X - Página de Recuperação da Senha - RF-009_ |
+| _Figura X - Página de Recuperação da Senha - RF-003_ |
 
 <ins>**Requisitos atendidos**</ins>
 
-- RF-009
+- RF-003
 
 <ins>**Artefatos da funcionalidade**</ins>
 
@@ -130,17 +130,17 @@ A página de recuperação da senha apresenta a funcionalidade do usuário comum
 1. Acesse a seguinte URL: [Cidadania Brasil](https://cidadania-brasil.vercel.app/);
 2. Clique em "Esqueceu sua senha?".
 
-## Página para Criar uma reclamação (RF-003)
+## Página para Criar uma reclamação (RF-004)
 
 A página para criar uma reclamação apresenta a funcionalidade do usuário criar sua reclamação. As reclamações são armazenadas no LocalStorage com estruturas de dados baseadas em JSON. Um exemplo da tela é apresentada na Figura X.
 
 | ![Figura X - Página para Criar uma reclamação](./img/tela-login.png 'Figura X')
 |:--:|
-| _Figura X - Página para Criar uma reclamação - RF-003_ |
+| _Figura X - Página para Criar uma reclamação - RF-004_ |
 
 <ins>**Requisitos atendidos**</ins>
 
-- RF-003
+- RF-004
 
 <ins>**Artefatos da funcionalidade**</ins>
 
@@ -185,7 +185,7 @@ A página para criar uma reclamação apresenta a funcionalidade do usuário cri
 3. Faça Login;
 4. Registre sua reclamação.
 
-## Página Feed de Reclamações (RF-004, RF-005, RF-006, RF-007 e RF-008)
+## Página Feed de Reclamações (RF-005, RF-006, RF-007, RF-008 e RF-009)
 
 A página feed de reclamações exibe todas as reclamações criadas pelos usuários. Os usuários têm a opção de curtir e comentar uma reclamação. Além disso, os usuários gestores têm a capacidade de criar réplicas por meio da seção de comentários. As reclamações juntamente com comentários e curtidas são armazenadas no LocalStorage com estruturas de dados baseadas em JSON. Um exemplo da tela é apresentada na Figura X.
 
@@ -195,11 +195,11 @@ A página feed de reclamações exibe todas as reclamações criadas pelos usuá
 
 <ins>**Requisitos atendidos**</ins>
 
-- RF-004
 - RF-005
 - RF-006
 - RF-007
 - RF-008
+- RF-009
 
 <ins>**Artefatos da funcionalidade**</ins>
 

@@ -59,13 +59,13 @@ Segue abaixo a tabela que lista os requisitos do projeto, identificando a ordem 
 |------|-----------------------------------------|----|
 |RF-001| O site deve oferecer ao usuário a funcionalidade de se cadastrar | ALTA |
 |RF-002| O site deve oferecer ao usuário a funcionalidade de realizar login | ALTA |
-|RF-003| O site deve apresentar a funcionalidade de "reclamar" | ALTA |
-|RF-004| O site deve oferecer ao usuário a opção de “curtir” uma reclamação | MÉDIA |
-|RF-005| O site deve oferecer ao usuário a opção de criar comentários em reclamações | ALTA |
-|RF-006| O site deve exibir, em cada reclamação, a quantidade de curtidas e comentários recebidos. | ALTA |
-|RF-007| O site deve fornecer uma lista de comentários feitos por outros usuários para cada reclamação | ALTA |
-|RF-008| O site deve permitir que o setor reclamado possa postar uma réplica em relação a reclamação | ALTA |
-|RF-009| O site deve permitir que o usuário altere sua senha caso a tenha esquecido | ALTA |
+|RF-003| O site deve permitir que o usuário altere sua senha caso a tenha esquecido | ALTA |
+|RF-004| O site deve apresentar a funcionalidade de "reclamar" | ALTA |
+|RF-005| O site deve oferecer ao usuário a opção de “curtir” uma reclamação | MÉDIA |
+|RF-006| O site deve oferecer ao usuário a opção de criar comentários em reclamações | ALTA |
+|RF-007| O site deve exibir, em cada reclamação, a quantidade de curtidas e comentários recebidos. | ALTA |
+|RF-008| O site deve fornecer uma lista de comentários feitos por outros usuários para cada reclamação | ALTA |
+|RF-009| O site deve permitir que o setor reclamado possa postar uma réplica em relação a reclamação | ALTA |
 
 ### Requisitos não Funcionais
 
