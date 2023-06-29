@@ -71,3 +71,12 @@
 | **Objetivo do Teste** | Verificar se o sistema permite que o usuário gestor faça uma réplica em uma reclamação na seção de comentários. |
 | **Passos** 	| 1. Acessar o navegador; <br>2. Informar o endereço do site;<br>3. Se cadastrar;<br>4. Realizar Login;<br> 5. Acessar e visualizar a página feed de reclamações;<br> 5. Criar um comentário. |
 | **Critérios de Êxito** 	| O usuário gestor deve ser capaz de visualizar sua réplica na seção de comentários, destacada por diferenças de estilo em relação aos comentários dos demais usuários. |
+
+<!-- CT - 009 -->
+
+| **Caso de Teste** 	| **CT-009 – Recuperação de Senha** |
+|:---:	|:---:	|
+| **Requisitos associados:** | RF-009: O site deve permitir que o usuário altere sua senha caso a tenha esquecido. |
+| **Objetivo do Teste** | Verificar se o sistema permite que o usuário consiga recuperar sua senha. |
+| **Passos** 	| 1. Acessar o navegador; <br>2. Informar o endereço do site;<br>3. Clicar em "Esqueceu sua senha?";<br>4. Preencher o formulário e enviar;
+| **Critérios de Êxito** 	| O usuário deve visualizar uma mensagem indicando que a senha foi alterada. |
