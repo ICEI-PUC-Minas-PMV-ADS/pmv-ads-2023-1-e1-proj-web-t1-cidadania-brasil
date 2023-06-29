@@ -65,3 +65,15 @@ Elaboramos o projeto de interface, definindo o fluxo do usuário no uso da aplic
 Na terceira etapa, criamos o template do site, que estabelece o layout padrão a ser utilizado em todas as páginas, juntamente com a definição da identidade visual e da iconografia.
 
 Além disso, demos início ao desenvolvimento das páginas "feed de reclamações", "login" e "recuperar senha", criando toda a estrutura HTML e CSS.
+
+| ![Figura 4 - Quadro Scrum do Projeto](./img/sprint-2.png "Figura 4")
+|:--:| 
+| *Figura 4 - Quadro Scrum referente a quarta etapa do projeto* |
+
+Na quarta etapa, desenvolvemos as funcionalidades restantes. Além disso, criamos e documentamos planos de testes para todas as funcionalidades da aplicação.
+
+| ![Figura 5 - Quadro Scrum do Projeto](./img/sprint-2.png "Figura 5")
+|:--:| 
+| *Figura 5 - Quadro Scrum referente a quinta etapa do projeto* |
+
+Na quinta etapa, disponibilizamos a aplicação final em um servidor, gravamos um vídeo de demonstração e realizamos a apresentação final do projeto.

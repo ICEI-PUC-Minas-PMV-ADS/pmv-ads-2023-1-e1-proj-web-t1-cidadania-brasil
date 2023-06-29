@@ -8,9 +8,9 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 | **Quantidade de erros**  	| 0 |
 | **Comentários e observações**  | O usuário achou a tela intuitiva e não encontrou dificuldades para preencher os dados.  |
 
-|![Página de Cadastro do usuário](./img/testes/teste-cadastro-1.png)
+|![Figura 17 - Página de Cadastro do usuário](./img/testes/teste-cadastro-1.png 'Figura 17')
 |:--:|
-|_Teste do usuário 1 na tela cadastro._ |
+|_Figura 17 - Teste do usuário 1 na tela cadastro._ |
 
 <br /><br />
 
@@ -20,9 +20,9 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 | **Quantidade de erros**  	| 0 |
 | **Comentários e observações**  | O usuário deixou um ou mais campos obrigatórios sem preenchimento. Uma mensagem foi exibida para o usuário informado sobre o problema.  |
 
-|![Página de Cadastro do usuário](./img/testes/teste-cadastro-2.png)
+|![Figura 18 - Página de Cadastro do usuário](./img/testes/teste-cadastro-2.png 'Figura 18')
 |:--:|
-|_Teste do usuário 2 na tela cadastro._ |
+|_Figura 18 - Teste do usuário 2 na tela cadastro._ |
 
 <br /><br />
 
@@ -32,9 +32,9 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 | **Quantidade de erros**  	| 0 |
 | **Comentários e observações**  | O usuário informou uma senha com menos de 8 caracteres. Uma mensagem foi exibida para o usuário informado sobre o problema.  |
 
-|![Página de Cadastro do usuário](./img/testes/teste-cadastro-3.png)
+|![Figura 19 - Página de Cadastro do usuário](./img/testes/teste-cadastro-3.png 'Figura 19')
 |:--:|
-|_Teste do usuário 3 na tela cadastro._ |
+|_Figura 19 - Teste do usuário 3 na tela cadastro._ |
 
 <br /><br />
 
@@ -44,9 +44,9 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 | **Quantidade de erros**  	| 0 |
 | **Comentários e observações**  | O usuário achou a tela intuitiva e não encontrou dificuldades para preencher os dados.  |
 
-|![Página de Cadastro do usuário](./img/testes/teste-cadastro-4.png)
+|![Figura 20 - Página de Cadastro do usuário](./img/testes/teste-cadastro-4.png 'Figura 20')
 |:--:|
-|_Teste do usuário 4 na tela cadastro._ |
+|_Figura 20 - Teste do usuário 4 na tela cadastro._ |
 
 <br /><br />
 
@@ -56,9 +56,9 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 | **Quantidade de erros**  	| 0 |
 | **Comentários e observações**  | O usuário informou um código de gestor inválido. Uma mensagem foi exibida para o usuário informado sobre o problema.  |
 
-|![Página de Cadastro do usuário](./img/testes/teste-cadastro-5.png)
+|![Figura 21 - Página de Cadastro do usuário](./img/testes/teste-cadastro-5.png 'Figura 21')
 |:--:|
-|_Teste do usuário 5 na tela cadastro._ |
+|_Figura 21 - Teste do usuário 5 na tela cadastro._ |
 
 <br /><br />
 
@@ -68,9 +68,9 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 | **Quantidade de erros**  	| 0 |
 | **Comentários e observações**  | O usuário informou um e-mail já cadastrado. Uma mensagem foi exibida para o usuário informado sobre o problema.  |
 
-|![Página de Cadastro do usuário](./img/testes/teste-cadastro-6.png)
+|![Figura 22 - Página de Cadastro do usuário](./img/testes/teste-cadastro-6.png 'Figura 22')
 |:--:|
-|_Teste do usuário 6 na tela cadastro._ |
+|_Figura 22 - Teste do usuário 6 na tela cadastro._ |
 
 <br /><br />
 
@@ -80,9 +80,9 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 | **Quantidade de erros**  	| 0 |
 | **Comentários e observações**  | O usuário achou a tela intuitiva e não encontrou dificuldades para preencher os dados.  |
 
-|![Página de Login do usuário](./img/testes/teste-login-1.png)
+|![Figura 23 - Página de Login do usuário](./img/testes/teste-login-1.png 'Figura 23')
 |:--:|
-|_Teste do usuário 1 na tela de login._ |
+|_Figura 23 - Teste do usuário 1 na tela de login._ |
 
 <br /><br />
 
@@ -92,9 +92,9 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 | **Quantidade de erros**  	| 0 |
 | **Comentários e observações**  | O usuário informou um e-mail inválido. Uma mensagem foi exibida para o usuário informado sobre o problema. |
 
-|![Página de Login do usuário](./img/testes/teste-login-2.png)
+|![Figura 24 - Página de Login do usuário](./img/testes/teste-login-2.png 'Figura 24')
 |:--:|
-|_Teste do usuário 2 na tela de login._ |
+|_Figura 24 - Teste do usuário 2 na tela de login._ |
 
 <br /><br />
 
@@ -104,9 +104,9 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 | **Quantidade de erros**  	| 0 |
 | **Comentários e observações**  | O usuário informou um e-mail que não está vinculado a nenhuma conta. Uma mensagem foi exibida para o usuário informado sobre o problema. |
 
-|![Página de Login do usuário](./img/testes/teste-login-3.png)
+|![Figura 25 - Página de Login do usuário](./img/testes/teste-login-3.png 'Figura 25')
 |:--:|
-|_Teste do usuário 3 na tela de login._ |
+|_Figura 25 - Teste do usuário 3 na tela de login._ |
 
 <br /><br />
 
@@ -116,9 +116,9 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 | **Quantidade de erros**  	| 0 |
 | **Comentários e observações**  | O usuário informou uma senha com menos de 8 caracteres. Uma mensagem foi exibida para o usuário informado sobre o problema. |
 
-|![Página de Login do usuário](./img/testes/teste-login-4.png)
+|![Figura 26 - Página de Login do usuário](./img/testes/teste-login-4.png 'Figura 26')
 |:--:|
-|_Teste do usuário 4 na tela de login._ |
+|_Figura 26 - Teste do usuário 4 na tela de login._ |
 
 <br /><br />
 
@@ -128,9 +128,9 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 | **Quantidade de erros**  	| 0 |
 | **Comentários e observações**  | O usuário informou uma senha incorreta. Uma mensagem foi exibida para o usuário informado sobre o problema. |
 
-|![Página de Login do usuário](./img/testes/teste-login-5.png)
+|![Figura 27 - Página de Login do usuário](./img/testes/teste-login-5.png 'Figura 27')
 |:--:|
-|_Teste do usuário 5 na tela de login._ |
+|_Figura 27 - Teste do usuário 5 na tela de login._ |
 
 <br /><br />
 
@@ -140,9 +140,9 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 | **Quantidade de erros**  	| 0 |
 | **Comentários e observações**  | O usuário deixou um ou mais campos obrigatórios sem preenchimento. Uma mensagem foi exibida para o usuário informado sobre o problema. |
 
-|![Página de Login do usuário](./img/testes/teste-login-6.png)
+|![Figura 28 - Página de Login do usuário](./img/testes/teste-login-6.png 'Figura 28')
 |:--:|
-|_Teste do usuário 6 na tela de login._ |
+|_Figura 28 - Teste do usuário 6 na tela de login._ |
 
 <br /><br />
 
@@ -152,9 +152,9 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 | **Quantidade de erros**  	| 0 |
 | **Comentários e observações**  | O usuário achou a tela intuitiva e não encontrou dificuldades para preencher os dados. |
 
-|![Página de recuperação de senha](./img/testes/teste-recuperar-senha-1.png)
+|![Figura 29 - Página de recuperação de senha](./img/testes/teste-recuperar-senha-1.png 'Figura 29')
 |:--:|
-|_Teste do usuário 1 na tela de recuperação de senha._ |
+|_Figura 29 - Teste do usuário 1 na tela de recuperação de senha._ |
 
 <br /><br />
 
@@ -164,9 +164,9 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 | **Quantidade de erros**  	| 0 |
 | **Comentários e observações**  | O usuário informou um e-mail inválido. Uma mensagem foi exibida para o usuário informado sobre o problema. |
 
-|![Página de recuperação de senha](./img/testes/teste-recuperar-senha-2.png)
+|![Figura 30 - Página de recuperação de senha](./img/testes/teste-recuperar-senha-2.png 'Figura 30')
 |:--:|
-|_Teste do usuário 2 na tela de recuperação de senha._ |
+|_Figura 30 - Teste do usuário 2 na tela de recuperação de senha._ |
 
 <br /><br />
 
@@ -176,9 +176,9 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 | **Quantidade de erros**  	| 0 |
 | **Comentários e observações**  | O usuário informou um e-mail que não está vinculado a nenhuma conta. Uma mensagem foi exibida para o usuário informado sobre o problema. |
 
-|![Página de recuperação de senha](./img/testes/teste-recuperar-senha-3.png)
+|![Figura 31 - Página de recuperação de senha](./img/testes/teste-recuperar-senha-3.png 'Figura 31')
 |:--:|
-|_Teste do usuário 3 na tela de recuperação de senha._ |
+|_Figura 31 - Teste do usuário 3 na tela de recuperação de senha._ |
 
 <br /><br />
 
@@ -188,9 +188,9 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 | **Quantidade de erros**  	| 0 |
 | **Comentários e observações**  | O usuário informou uma senha com menos de 8 caracteres. Uma mensagem foi exibida para o usuário informado sobre o problema. |
 
-|![Página de recuperação de senha](./img/testes/teste-recuperar-senha-4.png)
+|![Figura 32 - Página de recuperação de senha](./img/testes/teste-recuperar-senha-4.png 'Figura 32')
 |:--:|
-|_Teste do usuário 4 na tela de recuperação de senha._ |
+|_Figura 32 - Teste do usuário 4 na tela de recuperação de senha._ |
 
 <br /><br />
 
@@ -200,9 +200,9 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 | **Quantidade de erros**  	| 0 |
 | **Comentários e observações**  | O usuário deixou um ou mais campos obrigatórios sem preenchimento. Uma mensagem foi exibida para o usuário informado sobre o problema. |
 
-|![Página de recuperação de senha](./img/testes/teste-recuperar-senha-5.png)
+|![Figura 33 - Página de recuperação de senha](./img/testes/teste-recuperar-senha-5.png 'Figura 33')
 |:--:|
-|_Teste do usuário 5 na tela de recuperação de senha._ |
+|_Figura 33 - Teste do usuário 5 na tela de recuperação de senha._ |
 
 <br /><br />
 
@@ -212,9 +212,9 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 | **Quantidade de erros**  	| 0 |
 | **Comentários e observações**  | O usuário digitou senhas diferentes. Uma mensagem foi exibida para o usuário informado sobre o problema. |
 
-|![Página de recuperação de senha](./img/testes/teste-recuperar-senha-6.png)
+|![Figura 34 - Página de recuperação de senha](./img/testes/teste-recuperar-senha-6.png 'Figura 34')
 |:--:|
-|_Teste do usuário 6 na tela de recuperação de senha._ |
+|_Figura 34 - Teste do usuário 6 na tela de recuperação de senha._ |
 
 <br /><br />
 
@@ -224,9 +224,9 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 | **Quantidade de erros** | 0 |
 | **Comentários e observações**  | O usuário achou a tela intuitiva e não encontrou dificuldades para preencher os dados. |
 
-|![Página Criar Reclamação](./img/testes/teste-criar-reclamacao-1.png)
+|![Figura 35 - Página Criar Reclamação](./img/testes/teste-criar-reclamacao-1.png 'Figura 35')
 |:--:|
-|_Teste do usuário 1 na tela criar reclamação._ |
+|_Figura 35 - Teste do usuário 1 na tela para criar uma reclamação._ |
 
 <br /><br />
 
@@ -236,9 +236,9 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 | **Quantidade de erros** | 0 |
 | **Comentários e observações**  | O usuário deixou um ou mais campos obrigatórios sem preenchimento. Uma mensagem foi exibida para o usuário informado sobre o problema. |
 
-|![Página Criar Reclamação](./img/testes/teste-criar-reclamacao-2.png)
+|![Figura 36 - Página Criar Reclamação](./img/testes/teste-criar-reclamacao-2.png 'Figura 36')
 |:--:|
-|_Teste do usuário 2 na tela criar reclamação._ |
+|_Figura 36 - Teste do usuário 2 na tela para criar uma reclamação._ |
 
 <br /><br />
 
@@ -248,9 +248,9 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 | **Quantidade de erros** | 0 |
 | **Comentários e observações**  | O usuário achou a tela intuitiva e não encontrou dificuldades para realizar a ação. |
 
-|![Página Feed de Reclamações](./img/testes/teste-curtir.png)
+|![Figura 37 - Página Feed de Reclamações](./img/testes/teste-curtir.png 'Figura 37')
 |:--:|
-|_Teste de curtida do usuário 1 na tela feed de reclamações._ |
+|_Figura 37 - Teste de curtida do usuário 1 na tela feed de reclamações._ |
 
 <br /><br />
 
@@ -260,9 +260,9 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 | **Quantidade de erros** | 0 |
 | **Comentários e observações**  | O usuário achou a tela intuitiva e não encontrou dificuldades para realizar a ação. |
 
-|![Página Feed de Reclamações](./img/testes/teste-comentario-1.png)
+|![Figura 38 - Página Feed de Reclamações](./img/testes/teste-comentario-1.png 'Figura 38')
 |:--:|
-|_Teste de comentário do usuário 1 na tela feed de reclamações._ |
+|_Figura 38 - Teste de comentário do usuário 1 na tela feed de reclamações._ |
 
 <br /><br />
 
@@ -272,9 +272,9 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 | **Quantidade de erros** | 0 |
 | **Comentários e observações**  | O usuário deixou o campo vazio. Uma mensagem foi exibida para o usuário informado sobre o problema. |
 
-|![Página Feed de Reclamações](./img/testes/teste-comentario-2.png)
+|![Figura 39 - Página Feed de Reclamações](./img/testes/teste-comentario-2.png 'Figura 39')
 |:--:|
-|_Teste de comentário do usuário 2 na tela feed de reclamações._ |
+|_Figura 39 - Teste de comentário do usuário 2 na tela feed de reclamações._ |
 
 <br /><br />
 
@@ -284,9 +284,9 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 | **Quantidade de erros** | 0 |
 | **Comentários e observações**  | O usuário achou a tela intuitiva e não encontrou dificuldades para realizar a ação. |
 
-|![Página Feed de Reclamações](./img/testes/teste-comentario-2.png)
+|![Figura 40 - Página Feed de Reclamações](./img/testes/teste-comentario-2.png 'Figura 40')
 |:--:|
-|_Teste de visualização de reclamações do usuário 1 na tela feed de reclamações._ |
+|_Figura 40 - Teste do usuário 1 para visualização de reclamações na tela feed de reclamações._ |
 
 <br /><br />
 
@@ -296,9 +296,9 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 | **Quantidade de erros** | 0 |
 | **Comentários e observações**  | O usuário achou a tela intuitiva e não encontrou dificuldades para realizar a ação. |
 
-|![Página Feed de Reclamações](./img/testes/teste-comentario-1.png)
+|![Figura 41 - Página Feed de Reclamações](./img/testes/teste-comentario-1.png 'Figura 41')
 |:--:|
-|_Teste de visualização dos comentários do usuário 1 na tela feed de reclamações._ |
+|_Figura 41 - Teste do usuário 1 para visualização dos comentários na tela feed de reclamações._ |
 
 <br /><br />
 
@@ -308,9 +308,9 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 | **Quantidade de erros** | 0 |
 | **Comentários e observações**  | O usuário achou a tela intuitiva e não encontrou dificuldades para realizar a ação. |
 
-|![Página Feed de Reclamações](./img/testes/teste-comentario-3.png)
+|![Figura 42 - Página Feed de Reclamações](./img/testes/teste-comentario-3.png 'Figura 42')
 |:--:|
-|_Teste de réplica do gestor do usuário 1 na tela feed de reclamações._ |
+|_Figura 42 - Teste do usuário 1 para réplica do gestor na tela feed de reclamações._ |
 
 | **Caso de Teste** | **CT-009 – Réplica do setor responsável pela reclamação** 	|
 |:---:	|:---:	|
@@ -318,6 +318,6 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 | **Quantidade de erros** | 0 |
 | **Comentários e observações**  | O usuário deixou o campo vazio. Uma mensagem foi exibida para o usuário informado sobre o problema. |
 
-|![Página Feed de Reclamações](./img/testes/teste-comentario-2.png)
+|![Figura 43 - Página Feed de Reclamações](./img/testes/teste-comentario-2.png 'Figura 43')
 |:--:|
-|_Teste de réplica do gestor do usuário 2 na tela feed de reclamações._ |
+|_Figura 43 - Teste do usuário 2 para réplica do gestor na tela feed de reclamações._ |

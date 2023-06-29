@@ -8,9 +8,9 @@ apresentadas na sequência.
 
 A página de cadastro do usuário apresenta a funcionalidade do usuário comum ou gestor criar uma conta na aplicação. Os usuários cadastrados são armazenados no LocalStorage com estruturas de dados baseadas em JSON. Um exemplo da tela é apresentada na Figura X.
 
-| ![Figura X - Página de Cadastro do Usuário](./img/tela-cadastrar.png 'Figura X')
+| ![Figura 12 - Página de Cadastro do Usuário](./img/tela-cadastrar.png 'Figura 12')
 |:--:|
-| _Figura X - Página de Cadastro do Usuário - RF-001_ |
+| _Figura 12 - Página de Cadastro do Usuário - RF-001_ |
 
 <ins>**Requisitos atendidos**</ins>
 
@@ -52,9 +52,9 @@ A página de cadastro do usuário apresenta a funcionalidade do usuário comum o
 
 A página de Login apresenta a funcionalidade do usuário comum ou gestor acessar sua conta. Os dados do usuário logado são armazenados no LocalStorage com estruturas de dados baseadas em JSON. Um exemplo da tela é apresentada na Figura X.
 
-| ![Figura X - Página de Login](./img/tela-login.png 'Figura X')
+| ![Figura 13 - Página de Login](./img/tela-login.png 'Figura 13')
 |:--:|
-| _Figura X - Página de Login - RF-002_ |
+| _Figura 13 - Página de Login - RF-002_ |
 
 <ins>**Requisitos atendidos**</ins>
 
@@ -92,9 +92,9 @@ A página de Login apresenta a funcionalidade do usuário comum ou gestor acessa
 
 A página de recuperação da senha apresenta a funcionalidade do usuário comum ou gestor alterar sua senha. Os dados editados do usuário são armazenados no LocalStorage com estruturas de dados baseadas em JSON. Um exemplo da tela é apresentada na Figura X.
 
-| ![Figura X - Página de Recuperação da Senha](./img/tela-recuperar-senha.png 'Figura X')
+| ![Figura 14 - Página de Recuperação da Senha](./img/tela-recuperar-senha.png 'Figura 14')
 |:--:|
-| _Figura X - Página de Recuperação da Senha - RF-003_ |
+| _Figura 14 - Página de Recuperação da Senha - RF-003_ |
 
 <ins>**Requisitos atendidos**</ins>
 
@@ -134,9 +134,9 @@ A página de recuperação da senha apresenta a funcionalidade do usuário comum
 
 A página para criar uma reclamação apresenta a funcionalidade do usuário criar sua reclamação. As reclamações são armazenadas no LocalStorage com estruturas de dados baseadas em JSON. Um exemplo da tela é apresentada na Figura X.
 
-| ![Figura X - Página para Criar uma reclamação](./img/tela-login.png 'Figura X')
+| ![Figura 15 - Página para Criar uma reclamação](./img/tela-login.png 'Figura 15')
 |:--:|
-| _Figura X - Página para Criar uma reclamação - RF-004_ |
+| _Figura 15 - Página para Criar uma reclamação - RF-004_ |
 
 <ins>**Requisitos atendidos**</ins>
 
@@ -189,9 +189,9 @@ A página para criar uma reclamação apresenta a funcionalidade do usuário cri
 
 A página feed de reclamações exibe todas as reclamações criadas pelos usuários. Os usuários têm a opção de curtir e comentar uma reclamação. Além disso, os usuários gestores têm a capacidade de criar réplicas por meio da seção de comentários. As reclamações juntamente com comentários e curtidas são armazenadas no LocalStorage com estruturas de dados baseadas em JSON. Um exemplo da tela é apresentada na Figura X.
 
-| ![Figura X - Página Feed de Reclamações](./img/tela-feed-reclamacoes.png 'Figura X')
+| ![Figura 16 - Página Feed de Reclamações](./img/tela-feed-reclamacoes.png 'Figura 16')
 |:--:|
-| _Figura X - Página Feed de Reclamações - RF-004, RF-005, RF-006, RF-007 e RF-008_ |
+| _Figura 16 - Página Feed de Reclamações - RF-004, RF-005, RF-006, RF-007 e RF-008_ |
 
 <ins>**Requisitos atendidos**</ins>
 
