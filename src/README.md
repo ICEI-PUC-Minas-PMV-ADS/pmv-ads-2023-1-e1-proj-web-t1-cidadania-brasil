@@ -1,4 +1,6 @@
-# Registro de Reclamações
+<img alt="Logotipo" title="Logo" src="./src/assets/logo.svg" width="130px"/>
+
+# Cidadania Brasil
 
 `Análise e Desenvolvimento de Sistemas`
 
@@ -49,7 +51,7 @@ $ npm run dev
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+* <a href="https://cidadania-brasil.vercel.app/">Clique aqui</a>
 
 # Armazenamento do Código-Fonte
 
