@@ -256,6 +256,7 @@ function montarEstruturaComentarios({
   inputComentario.setAttribute('id', `input-comentar-${reclamacaoId}`);
   inputComentario.setAttribute('type', 'text');
   inputComentario.setAttribute('placeholder', 'Adicionar comentário');
+  inputComentario.setAttribute('required', 'required');
   containerAdicionarComentario.appendChild(inputComentario);
 
   const listaComentarios = document.createElement('ul');
