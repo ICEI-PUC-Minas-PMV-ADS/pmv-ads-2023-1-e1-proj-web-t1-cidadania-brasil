@@ -8,7 +8,7 @@
 
 `2023/1`
 
-Este projeto tem como objetivo centralizar reclamações e exigências dos cidadãos, e assim buscar uma melhoria na gestão dos recursos públicos, focando onde é essencial para o povo.
+Este projeto tem como objetivo estabelecer um canal de comunicação eficiente para que os cidadãos possam registrar e discutir suas preocupações relacionadas à má gestão pública.
 
 ## Integrantes
 
