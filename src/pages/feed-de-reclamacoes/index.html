@@ -69,7 +69,7 @@
     </header>
 
     <main>
-      <div class="conteudo">
+      <div class="conteudo-principal">
         <!-- Criar reclamação -->
         <section class="link-criar-reclamacao">
           <div class="avatar">DM</div>
@@ -77,7 +77,77 @@
         </section>
         <hr />
         <!-- Reclamações -->
-        <div id="container-reclamacoes"></div>
+        <div id="container-reclamacoes">
+          <article class="reclamacao">
+            <header>
+              <div class="avatar" data-reclamacao="avatar-autor">RO</div>
+              <h2 data-reclamacao="nome">Rodrigo Oliveira</h2>
+              <div class="informacoes-usuario">
+                <span data-reclamacao="profissao">Engenheiro Civil</span>
+                <span data-reclamacao="bairro">Pampulha</span>
+                <span data-reclamacao="data">09/04/2023</span>
+              </div>
+            </header>
+            <section class="conteudo-reclamacao" data-reclamacao="conteudo">
+              <h3 data-reclamacao="categoria">Reclamação sobre transporte</h3>
+              <p data-reclamacao="texto">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s.
+              </p>
+              <figure data-reclamacao="imagem">
+                <img />
+              </figure>
+            </section>
+            <div class="detalhes-sociais">
+              <span>
+                <i class="ph-fill ph-thumbs-up"></i>
+                <p data-reclamacao="curtidas">500 pessoas curtiram</p>
+              </span>
+              <span data-reclamacao="comentarios">41 comentários</span>
+            </div>
+            <div class="acoes">
+              <button type="button" data-reclamacao="btn-curtir">
+                <i class="ph ph-thumbs-up"></i>
+                Gostei
+              </button>
+              <button type="button" data-reclamacao="btn-comentar">
+                <i class="ph ph-chat-centered-text"></i>
+                Comentar
+              </button>
+            </div>
+            <section class="secao-comentarios ocultar" data-comentario="secao-comentarios">
+              <form class="form-criar-comentario" data-comentario="form-criar-comentario">
+                <div class="avatar" data-comentario="avatar-comentar">DM</div>
+                <input
+                  type="text"
+                  name="comentar"
+                  placeholder="Adicionar comentário"
+                  required
+                />
+              </form>
+              <ul id="container-comentarios" class="comentarios">
+                <li>
+                  <div class="avatar" data-comentario="avatar-autor"></div>
+                  <div class="conteudo-comentario">
+                    <header>
+                      <div>
+                        <h4 data-comentario="nome"></h4>
+                        <!-- <span class="tipo-usuario autor">Autor</span> -->
+                      </div>
+                      <div>
+                        <span class="profissao" data-comentario="profissao"></span>
+                        <span class="separador">&#8226;</span>
+                        <span class="bairro" data-comentario="bairro"></span>
+                      </div>
+                    </header>
+                    <p data-comentario="comentario"></p>
+                  </div>
+                </li>
+              </ul>
+            </section>
+          </article>
+        </div>
       </div>
     </main>
 
