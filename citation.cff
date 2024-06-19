@@ -1,0 +1,16 @@
+message: Please cite this software using these metadata.
+title: Cidadania Brasil
+authors:
+  - family-names: Lousada Batalha dos Santos
+    given-names: Lucas
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Christina De Paiva Carvalho
+    given-names: Joyce
+keywords:
+  - Cidadão
+  - Política
+  - Gestão pública
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-cidadania-brasil
+version: 1.0.0
+date-released: 2023-06-30
